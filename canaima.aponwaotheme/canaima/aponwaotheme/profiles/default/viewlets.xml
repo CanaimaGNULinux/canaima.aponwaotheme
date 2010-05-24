@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<object>
+ <hidden manager="plone.portalfooter" skinname="Canaima Aponwao">
+  <viewlet name="plone.footer"/>
+  <viewlet name="plone.colophon"/>
+ </hidden>
+ <hidden manager="plone.portalheader" skinname="Canaima Aponwao">
+  <viewlet name="plone.global_sections"/>
+  <viewlet name="plone.logo"/>
+  <viewlet name="plone.searchbox"/>
+ </hidden>
+ <hidden manager="plone.htmlhead.links" skinname="Canaima Aponwao">
+  <viewlet name="plone.links.favicon" />
+ </hidden>
+ <order manager="plone.portalfooter" skinname="Canaima Aponwao">
+  <viewlet name="canaima.aponwaotheme.footer"/>
+  <viewlet name="plone.colophon"/>
+ </order>
+ <order manager="plone.portalheader" skinname="Canaima Aponwao">
+  <viewlet name="plone.skip_links"/>
+  <viewlet name="canaima.aponwaotheme.logo"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="canaima.aponwaotheme.searchbox"/>
+  <viewlet name="plone.global_sections"/>
+ </order>
+ <order manager="plone.portaltop" skinname="Canaima Aponwao">
+  <viewlet name="plone.personal_bar"/>
+  <viewlet name="plone.path_bar"/>
+  <viewlet name="plone.header"/>
+  <viewlet name="plone.app.i18n.locales.languageselector"/>
+ </order>
+ <order manager="plone.htmlhead.links" skinname="Canaima Aponwao">
+  <viewlet name="canaima.aponwaotheme.favicon" insert-before="*" />
+ </order>
+</object>

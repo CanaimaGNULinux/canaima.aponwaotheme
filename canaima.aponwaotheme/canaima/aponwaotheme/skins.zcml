@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="canaima.aponwaotheme">
+
+   <!-- File System Directory Views registration -->
+   <!-- -*- extra stuff goes here -*- -->
+
+  <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
+
+</configure>

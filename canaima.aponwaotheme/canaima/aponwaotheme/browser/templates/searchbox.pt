@@ -1,0 +1,142 @@
+<div id="portal-searchbox" i18n:domain="plone">
+
+<div id="img_header">
+<a href="/">
+  <img src="logo.png">
+  </a>
+</div>
+    <form id="searchbox"
+          action="search"
+          tal:attributes="action string:${view/navigation_root_url}/search">
+
+        <div class="LSBox">
+
+        <label for="searchGadget" class="hiddenStructure"
+                    i18n:translate="text_search">Search Site</label>
+
+        <input name="SearchableText"
+               type="text"
+               size="18"
+               value="Campo de Búsqueda"
+               title="Campo de Búsqueda"
+               onfocus="this.value=(this.value=='Campo de Búsqueda') ? '' : this.value;"
+               onblur="this.value=(this.value=='') ? 'Campo de Búsqueda' : this.value;"
+               accesskey="4"
+               i18n:attributes="title title_search_site;"
+               tal:attributes="value request/SearchableText|nothing;
+                               id view/search_input_id"
+               class="inputLabel" />
+
+<div id="clock"><script type="text/javascript">showdate();</script>Cargando Fecha...</div>
+
+        <input class="searchButton"
+               type="submit"
+               value="Search"
+               i18n:attributes="value label_search;" />
+    
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" 
+                   class="noborder"
+                   type="checkbox" 
+                   name="path" 
+                   tal:attributes="value view/folder_path"
+                   />
+            <label for="searchbox_currentfolder_only" 
+                   i18n:translate="label_searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="#"
+           tal:attributes="href string:${view/navigation_root_url}/search_form"
+           i18n:translate="label_advanced_search"
+           accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+
+<div id="slider">
+
+<div class="transparency"></div>
+
+<div class="slides">
+
+<div>
+
+<div class="slides_image1">
+
+</div>
+
+<div class="slides_text1">
+<strong>Canaima GNU/Linux</strong> es una Metadistribución basada en Debian 
+desarrollada por una comunidad en constante crecimiento. Contiene todas las 
+aplicaciones que necesitas en materia multimedia, ofimática, internet y 
+mensajería instantánea. Además:
+<ul class="list_header">
+<li>Es Rápido.</li>
+<li>Es Versátil.</li>
+<li>No tiene Virus.</li>
+<li>Es Gratis.</li>
+</ul>
+
+</div>
+
+
+</div>
+
+<div>
+
+<div class="slides_image2"></div>
+<div class="slides_text2">
+El <strong>Proyecto Canaima</strong> es un movimiento socio-tecnológico abierto, centrado en el desarrollo de Sistemas Operativos y aplicaciones enmarcadas dentro del <strong>Software Libre</strong>.<br /><br />Actualmente posee una comunidad altamente capacitada y en constante crecimiento. <a href="">{ Ver Más }</a>
+</div>
+</div>
+
+<div>
+
+<div class="slides_image3"></div>
+<div class="slides_text3">
+lorem ipsum latinus palabris desconocidus <a href="">{ Ver Más }</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+<div id="upperlabel">
+
+<div id="twitter">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b>
+<div class="bfg"><div id="twitter_msg">Cargando Estatus Twitter...</div></div>
+<b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</div>
+
+<div id="controller">
+<span class="jFlowControl jFlowSelected">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b><div class="bfg">
+1
+</div><b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</span>
+<span class="jFlowControl">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b><div class="bfg">
+2
+</div><b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</span>
+<span class="jFlowControl">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b><div class="bfg">
+3
+</div><b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</span>
+</div>
+
+</div>

@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="canaima.aponwaotheme">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Canaima Aponwao"
+      directory="profiles/default"
+      description='Perfil de Extensión del tema Canaima Aponwao.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Desinstalar Canaima Aponwao"
+      directory="profiles/uninstall"
+      description='Perfil de Instalación del tema Canaima Aponwao.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

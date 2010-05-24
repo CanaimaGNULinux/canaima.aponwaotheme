@@ -1,0 +1,38 @@
+<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone">
+<div id="footer">
+<br>
+<b class="f">
+  <b class="f1"><b></b></b>
+
+  <b class="f2"><b></b></b>
+  <b class="f3"></b>
+  <b class="f4"></b>
+
+  <b class="f5"></b></b>
+
+  <div class="ffg">
+El Portal Canaima GNU/Linux está potenciado por <a href="http://plone.org/">Plone</a>, <a href="http://jquery.com/">jQuery</a> y <a href="http://canaima.softwarelibre.gob.ve/">Linux</a>.
+
+  </div>
+
+  <b class="f">
+  <b class="f5"></b>
+  <b class="f4"></b>
+  <b class="f3"></b>
+  <b class="f2"><b></b></b>
+  <b class="f1"><b></b></b></b>
+<br>
+
+</div>
+
+
+<p>
+<br>
+</p>
+
+<p>
+<br>
+</p>
+
+
+</div>

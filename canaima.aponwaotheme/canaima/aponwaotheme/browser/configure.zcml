@@ -1,0 +1,61 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="canaima.aponwaotheme">
+
+<include package="plone.app.contentmenu" />
+
+    <!-- 'Canaima Aponwao' Zope 3 browser layer -->
+    <interface
+        interface=".interfaces.IThemeSpecific"
+        type="zope.publisher.interfaces.browser.IBrowserSkinType"
+        name="Canaima Aponwao"
+        />
+
+    <!-- Zope 3 browser resources -->
+    <browser:viewlet
+        name="canaima.aponwaotheme.searchbox"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.SearchBoxViewlet"
+	    layer=".interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+    <browser:viewlet
+        name="canaima.aponwaotheme.global_sections"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.GlobalSectionsViewlet"
+        layer=".interfaces.IThemeSpecific"
+	permission="zope2.View"
+        />
+    <browser:viewlet
+        name="canaima.aponwaotheme.footer"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        template="templates/footer.pt"
+        layer=".interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+    <browser:viewlet
+    name="canaima.aponwaotheme.favicon"
+    manager="plone.app.layout.viewlets.interfaces.IHtmlHeadLinks"
+    class=".viewlets.Favicon"
+    layer=".interfaces.IThemeSpecific"
+    permission="zope2.View"
+/>
+
+
+    <!-- Resource directory for templates -->
+    <browser:resourceDirectory
+        name="canaima.aponwaotheme.templates"
+        directory="templates"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+    <browser:resourceDirectory
+        name="canaima.aponwaotheme.javascripts"
+        directory="javascripts"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+    <!-- -*- extra stuff goes here -*- -->
+
+</configure>
