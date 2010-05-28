@@ -70,39 +70,19 @@
 <div class="slides">
 
 <div>
-<div class="slides_image4"></div>
-</div>
-
-<div>
 <div class="slides_image1"></div>
-<div class="slides_text1">
-<strong>Canaima GNU/Linux</strong> es una Metadistribución basada en Debian 
-desarrollada por una comunidad en constante crecimiento. Contiene todas las 
-aplicaciones que necesitas en materia multimedia, ofimática, internet y 
-mensajería instantánea. Además:
-<ul class="list_header">
-<li>Es Rápido.</li>
-<li>Es Versátil.</li>
-<li>No tiene Virus.</li>
-<li>Es Gratis.</li>
-</ul>
-</div>
 </div>
 
 <div>
-
 <div class="slides_image2"></div>
-<div class="slides_text2">
-El <strong>Proyecto Canaima</strong> es un movimiento socio-tecnológico abierto, centrado en el desarrollo de Sistemas Operativos y aplicaciones enmarcadas dentro del <strong>Software Libre</strong>.<br /><br />Actualmente posee una comunidad altamente capacitada y en constante crecimiento. <a href="">{ Ver Más }</a>
-</div>
 </div>
 
 <div>
-
 <div class="slides_image3"></div>
-<div class="slides_text3">
-lorem ipsum latinus palabris desconocidus <a href="">{ Ver Más }</a>
 </div>
+
+<div>
+<div class="slides_image4"></div>
 </div>
 
 
@@ -145,8 +125,8 @@ lorem ipsum latinus palabris desconocidus <a href="">{ Ver Más }</a>
 
 <div id="upperlabel">
 
-<div id="twitter">CanaimaLinux:
-<div class="bfg"><div id="twitter_msg">Cargando Estatus Twitter...</div></div>
+<div id="twitter">
+<div class="bfg"><a href="http://twitter.com/CanaimaLinux">CanaimaLinux:</a> <div id="twitter_msg">Cargando Estatus Twitter...</div></div>
 </div>
 
 </div>

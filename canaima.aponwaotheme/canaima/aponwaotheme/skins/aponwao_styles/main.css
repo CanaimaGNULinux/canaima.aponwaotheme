@@ -89,7 +89,7 @@ a:hover
 	width:960px;
 	font-weight:700;
 	text-transform:uppercase;
-	font-size:1.8em
+	font-size:1.6em;
 }
 
 #menu ul
@@ -202,9 +202,10 @@ input.searchButton,.searchSection
 
 h1
 {
-	float:none;
-	display:block;
-	font-family:sans-serif
+	font-family:"DejaVu Sans", "Microsoft Sans Serif", verdana, sans-serif;
+	font-size:2em;
+	font-weight:700;
+	
 }
 
 h1 a
@@ -223,9 +224,10 @@ h1 a:hover
 
 .documentDescription,.documentByLine, #link-presentation
 {
-	margin:0 20px;
+	width:510px;
 	float:left;
-	width:505px
+	margin:0px 15px;
+	margin-left:0px;
 }
 
 #clock
@@ -237,22 +239,82 @@ h1 a:hover
 
 #parent-fieldname-title
 {
-	background-color:#fff;
+	width:500px;
 	float:left;
-	margin:0 15px;
-	width:505px;
+	margin:0px 15px;
+	margin-left:0px;
 	text-align:left;
-	padding:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-khtml-border-radius:5px;
-	color:#4d4d46;
+	padding:5px 0px;
+	color:#000;
 	display:block;
 	font-weight:900;
-	font-size:2.2em;
+	font-size:1em;
 	letter-spacing:-.5px;
 	line-height:1em
+}
+
+#parent-fieldname-text
+{
+margin:30px 0px;
+float:left;
+text-align:justify;
+	font-size:1.6em;
+	line-height:1.6em
+
+}
+
+#parent-fieldname-text ul li
+{
+	list-style:url(li.gif) inside;
+	padding:0 10px
+}
+
+#content a
+{
+	-khtml-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#f0d9aa;
+	border:none;
+	border-radius:5px;
+	color:#444;
+	padding:1px 3px;
+	text-decoration:none;
+	vertical-align:middle
+}
+
+.collage-item
+{
+margin:30px 0px;
+float:left;
+text-align:justify;
+	font-size:1.6em;
+	line-height:1.6em
+}
+
+#collage .two-columns-largeleft .block_1,#collage .two-columns-largeleft .block_2
+{
+width:50% !important
+}
+
+.contenttype-news-item
+{
+margin-top: 2em;
+
+}
+
+#content a:hover
+{
+	background:#d3b084;
+	text-decoration:none
+}
+
+.contenttype-folder
+{
+float:left;
+font-size:1.2em;
+line-height:1.2em
+
 }
 
 .documentActions
@@ -329,66 +391,29 @@ float:right;
 .slides_image1
 {
 	height:200px;
-	width:400px;
+	width:960px;
 	float:left;
 	background:url(banner1.png) no-repeat center center;
 	margin:5px
 }
 
-.slides_text1
-{
-	height:190px;
-	width:530px;
-	float:left;
-	margin:5px;
-	font-size:1.5em;
-	color:#fff;
-	text-align:justify;
-	line-height:1.5em
-}
-
 .slides_image2
 {
 	height:200px;
-	width:640px;
+	width:960px;
 	float:left;
 	background:url(banner2.png) no-repeat center center;
 	margin:5px
 }
 
-.slides_text2
-{
-	height:190px;
-	width:290px;
-	float:left;
-	margin:5px;
-	font-size:1.5em;
-	color:#fff;
-	text-align:justify;
-	line-height:1.5em
-}
-
 .slides_image3
 {
 	height:200px;
-	width:640px;
+	width:960px;
 	float:left;
 	background:url(banner3.png) no-repeat center center;
 	margin:5px
 }
-
-.slides_text3
-{
-	height:190px;
-	width:290px;
-	float:left;
-	margin:5px;
-	font-size:1.5em;
-	color:#fff;
-	text-align:justify;
-	line-height:1.5em
-}
-
 
 .slides_image4
 {
@@ -441,12 +466,13 @@ float:right;
 
 h2
 {
-	height:17px;
-	line-height:17px;
-	font-weight:400;
-	margin-bottom:1em;
-	font-size:.8em;
-	text-transform:uppercase
+	font-weight:700;
+	margin:1em 0;
+	border-bottom: 1px solid #452f27;
+	font-size: 1.3em;
+	padding: 5px;
+	color:#4d4d46;
+
 }
 
 h2 span
@@ -477,7 +503,7 @@ h2.links a
 	color:#e7e7da
 }
 
-h3
+/*h3
 {
 	background-color:#fffff1;
 	padding:0 10px;
@@ -516,7 +542,7 @@ h3 a:hover
 {
 	text-decoration:none;
 	color:#89897c
-}
+}*/
 
 .bfg
 {
@@ -528,13 +554,6 @@ h3 a:hover
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
-}
-
-.bfg a
-{
-	color:#111;
-	padding:6px;
-	font-weight:700
 }
 
 #portal-footer
@@ -592,27 +611,27 @@ h3 a:hover
 
 #recursos
 {
-	background:url(franelas.png) 5px 0 no-repeat
+	background:url(franelas_.png) 5px 0 no-repeat
 }
 
 #wiki
 {
-	background:url(wiki.png) 5px 0 no-repeat
+	background:url(wiki_.png) 5px 0 no-repeat
 }
 
 #acerca
 {
-	background:url(logo3.png) 5px 0 no-repeat
+	background:url(logo3_.png) 5px 0 no-repeat
 }
 
 #registro
 {
-	background:url(registro.png) 5px 0 no-repeat
+	background:url(registro_.png) 5px 0 no-repeat
 }
 
 #rss
 {
-	background:url(rss.png) 5px 0 no-repeat
+	background:url(rss_.png) 5px 0 no-repeat
 }
 
 .chicklets
@@ -624,7 +643,7 @@ h3 a:hover
 
 .chick_h1
 {
-	font-size:1.4em;
+	font-size:0.9em;
 	font-weight:900;
 	float:left;
 	text-align:center;
@@ -635,7 +654,8 @@ h3 a:hover
 
 .chick_content
 {
-	font-size:1.2em;
+	font-size:0.75em;
+	line-height:1em;
 	float:left;
 	text-align:justify;
 	padding:10px 0px;
@@ -644,7 +664,8 @@ h3 a:hover
 
 .chick_h1 a
 {
-	color:#222
+	color:#222 !important;
+	background: transparent  !important;
 }
 
 .chick_h1 a:hover
@@ -686,100 +707,95 @@ h3 a:hover
 	-khtml-border-radius:5px;
 }
 
-h2
-{
-	height:17px;
-	line-height:17px;
-	font-weight:400;
-	margin-bottom:1em;
-	font-size:.8em;
-	text-transform:uppercase
-}
-
-h2 span
-{
-	background:url(highlight.gif);
-	padding:0 7px 0 8px;
-	float:left;
-	color:#e7e7da
-}
-
-h2 small
-{
-	float:left;
-	background:url(highlight.gif) no-repeat -498px 0;
-	padding-left:8px;
-	color:#89897c;
-	display:block;
-	height:17px
-}
-
-h2.links span
-{
-	color:#c3c3b1
-}
-
-h2.links a
-{
-	color:#e7e7da
-}
-
 .premier a
 {
-	padding-left:160px;
-	font-size:2em;
-	color:#25691c;
+	padding-left:160px !important;
+	font-size:1.3em ;
+	color:#25691c !important;
 	font-weight:900;
-	line-height:1.2em;
-	text-shadow:1px 1px 2px #999
+	line-height:1.3em;
+	text-shadow:1px 1px 2px #999;
+	background-color: transparent !important;
 
 }
 
 .premier a:hover
 {
-	color:#38a02a;
-	text-decoration:none
+	color:#38a02a !important;
+	text-decoration:none;
+	background-color: transparent !important;
+
 }
 
 .premier_big a
 {
-	padding-left:160px;
-	font-size:1.2em;
-	color:#25691c;
+	padding-left:160px !important;
+	font-size:0.8em;
+	color:#25691c !important;
 	font-weight:900;
-	line-height:1.5em;
-	text-shadow:1px 1px 2px #999
+	line-height:1.8em;
+	text-shadow:1px 1px 2px #999;
+	background-color: transparent !important;
+
 
 }
 
 .premier_big a:hover
 {
-	color:#38a02a;
+	color:#38a02a  !important;
+	text-decoration:none
+}
+.premier_big2
+{
+	padding-left:160px !important;
+
+}
+
+.premier_big2 a
+{
+	padding: 0px !important;
+	font-size:0.7em;
+	color:#756540 !important;
+	font-weight:900;
+	line-height:1.8em;
+	text-shadow:1px 1px 2px #999;
+	background-color: transparent !important;
+
+
+}
+
+.premier_big2 a:hover
+{
+	color:#ab9b75  !important;
 	text-decoration:none
 }
 
 .premier2 a
 {
-	padding-left:160px;
-	font-size:2em;
-	color:#756540;
+	padding-left:160px !important;
+	font-size:1.3em ;
+	color:#756540 !important;
 	font-weight:900;
 	line-height:1.2em;
-	text-shadow:1px 1px 2px #999
+	text-shadow:1px 1px 2px #999;
+	background-color: transparent !important;
+
 }
 
 .premier2 a:hover
 {
-	color:#ab9b75;
-	text-decoration:none
+	color:#ab9b75 !important;
+	text-decoration:none;
+	background-color: transparent !important;
+
 }
 
 .premier_sub
 {
 	padding-left:160px;
 	text-shadow:1px 1px 0px #999;
-	font-size:1.2em;
-	line-height:1.5em;
+	font-size:0.7em;
+	line-height:1.2em;
 	color:#555
 }
 
@@ -788,9 +804,12 @@ div.text_index
 	width:510px;
 	float:left;
 	margin:0px 15px;
-	font-size:1.4em;
+	margin-left:0px;
+	padding-top:210px;
+	font-size:1em;
+	line-height:1.3em;
+	text-indent:30px;
 	text-align:justify;
-	
 }
 
 div.text_index p a
@@ -810,10 +829,7 @@ div.text_index p a:hover
 }
 div.text_index p
 {
-	margin-bottom:1em;
-	font-size:1.175em;
-	line-height:1.35em;
-	text-indent:30px
+
 }
 
 div.text_index ul,div.text_index ol
@@ -888,8 +904,9 @@ div.text_index blockquote
 	float:left;
 	font-size:1.2em;
 	line-height:1.2em;
-	padding:0px 16px;
-	width:388px;
+	padding:0px 15px;
+	padding-right:0px;
+	width:390px;
 	display:inline
 }
 
@@ -898,17 +915,23 @@ div.text_index blockquote
 	height:20px;
 	background:#f6f6e8
 }*/
+#content
+{
+font-size:1em;
+padding:0px 15px;
+
+}
 
 #content_index
 {
 	text-align:justify;
 	width:930px;
-	padding:0px 15px;
+	padding:0px;
 	color:#55554e;
 	font-size:1.2em;
 	line-height:1.2em;
 	float:left;
-	display:inline
+	display_:inline
 }
 
 dl.collapsible,#parent-fieldname-text,.documentEditable
@@ -997,6 +1020,8 @@ dl.collapsible,#parent-fieldname-text,.documentEditable
 #history
 {
 float:left;
+margin:10px;
+width:910px;
 
 }
 
@@ -1017,7 +1042,7 @@ float:left;
 	margin:10px;
 }
 
-#region-content
+#region-content_
 {
 width:960px
 
