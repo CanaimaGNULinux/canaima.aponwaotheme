@@ -1,3 +1,2 @@
-include distwriters.py
 recursive-include canaima *
 global-exclude *pyc

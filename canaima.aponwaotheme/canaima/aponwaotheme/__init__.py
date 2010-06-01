@@ -1,4 +1,5 @@
-"""Main product initializer
+"""
+Main product initializer
 """
 
 #from zope.i18nmessageid import MessageFactory
@@ -12,7 +13,8 @@ GLOBALS = globals()
 #techlightMessageFactory = MessageFactory('canaima.aponwaotheme')
 
 def initialize(context):
-    """Initializer called when used as a Zope 2 product.
+    """
+    Initializer called when used as a Zope 2 product.
 
     This is referenced from configure.zcml. Regstrations as a "Zope 2 product"
     is necessary for GenericSetup profiles to work, for example.

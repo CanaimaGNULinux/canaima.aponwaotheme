@@ -2,14 +2,6 @@
 <object name="portal_skins" allow_any="False" cookie_persistence="False"
    default_skin="Canaima Aponwao">
 
-
-   <!-- -*- extra stuff goes here -*- -->
-
- <object name="aponwao_templates"
-    meta_type="Filesystem Directory View"
-    directory="canaima.aponwaotheme:skins/aponwao_templates"/>
-
-
  <object name="aponwao_styles"
     meta_type="Filesystem Directory View"
     directory="canaima.aponwaotheme:skins/aponwao_styles"/>
@@ -21,9 +13,6 @@
 
 
  <skin-path name="Canaima Aponwao" based-on="Plone Default">
-  <!-- -*- extra layer stuff goes here -*- -->
-  <layer name="aponwao_templates"
-     insert-after="custom"/>
   <layer name="aponwao_styles"
      insert-after="custom"/>
   <layer name="aponwao_images"
