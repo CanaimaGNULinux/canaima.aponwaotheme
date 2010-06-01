@@ -161,14 +161,17 @@ a:hover
 {
 
 	float:left;
-	margin-bottom:5px;
 	text-align:left;
 	padding:5px;
 	background:#e2dac7;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-khtml-border-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-left-radius:5px;
+	-khtml-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	border-top-right-radius:5px;
+	-khtml-border-top-right-radius:5px;
 	width:950px
 }
 
@@ -351,7 +354,7 @@ float:right;
 #slider
 {
 	width:960px;
-	height:210px;
+	height:300px;
 	color:#FFF;
 	position:relative;
 	float:left;
@@ -366,15 +369,15 @@ float:right;
 	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=5);
 	background-color:#fff;
 	width:960px;
-	height:210px;
+	height:300px;
 	position:absolute;
 	top:0;
 	left:0;
 	z-index:-1;
-	-moz-border-radius:5px;
+	/*-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	-khtml-border-radius:5px
+	-khtml-border-radius:5px*/
 }
 
 .slides
@@ -390,48 +393,34 @@ float:right;
 
 .slides_image1
 {
-	height:200px;
+	height:300px;
 	width:960px;
 	float:left;
 	background:url(banner1.png) no-repeat center center;
-	margin:5px
 }
 
 .slides_image2
 {
-	height:200px;
+	height:300px;
 	width:960px;
 	float:left;
 	background:url(banner2.png) no-repeat center center;
-	margin:5px
 }
 
 .slides_image3
 {
-	height:200px;
+	height:300px;
 	width:960px;
 	float:left;
 	background:url(banner3.png) no-repeat center center;
-	margin:5px
 }
 
 .slides_image4
 {
-	height:200px;
+	height:300px;
 	width:960px;
 	float:left;
 	background:url(banner4.png) no-repeat center center;
-	margin:5px
-}
-
-#twitter
-{
-	color:#333;
-	font-size:1.2em;
-	line-height:1.2em;
-	float:left;
-	width:920px;
-	text-align:left
 }
 
 #controller
@@ -441,20 +430,6 @@ float:right;
 	position:relative;
 	top:-25px;
 	left:-5px;
-}
-
-#upperlabel
-{
-	padding:5px 5px 5px 35px;
-	padding-right:0;
-	float:left;
-	width:920px;
-	background: url(twitter.png) 5px 5px no-repeat
-}
-
-#upperlabel a
-{
-	color:#111
 }
 
 .jFlowControl,.jFlowPrev,.jFlowNext
@@ -549,7 +524,8 @@ h3 a:hover
 	background:#675733;
 	cursor:pointer;
 	font-size:0.9em;
-	padding:5px;
+	padding:2px;
+	height:10px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
@@ -606,32 +582,27 @@ h3 a:hover
 
 #descargas
 {
-	background:url(discos.png) 5px 0 no-repeat
+	background:url(descargas.png) 10px 0px no-repeat
 }
 
-#recursos
+#enciclopedia
 {
-	background:url(franelas_.png) 5px 0 no-repeat
+	background:url(enciclopedia.png) 10px 0px no-repeat
 }
 
-#wiki
+#proyectos
 {
-	background:url(wiki_.png) 5px 0 no-repeat
+	background:url(proyectos.png) 10px 0px no-repeat
 }
 
 #acerca
 {
-	background:url(logo3_.png) 5px 0 no-repeat
+	background:url(acerca.png) 10px 0px no-repeat
 }
 
 #registro
 {
-	background:url(registro_.png) 5px 0 no-repeat
-}
-
-#rss
-{
-	background:url(rss_.png) 5px 0 no-repeat
+	background:url(registro.png) 10px 0px no-repeat
 }
 
 .chicklets
@@ -709,7 +680,7 @@ h3 a:hover
 
 .premier a
 {
-	padding-left:160px !important;
+	padding-left:100px !important;
 	font-size:1.3em ;
 	color:#25691c !important;
 	font-weight:900;
@@ -729,7 +700,7 @@ h3 a:hover
 
 .premier_big a
 {
-	padding-left:160px !important;
+	padding-left:100px !important;
 	font-size:0.8em;
 	color:#25691c !important;
 	font-weight:900;
@@ -747,7 +718,7 @@ h3 a:hover
 }
 .premier_big2
 {
-	padding-left:160px !important;
+	padding-left:100px !important;
 
 }
 
@@ -772,7 +743,7 @@ h3 a:hover
 
 .premier2 a
 {
-	padding-left:160px !important;
+	padding-left:100px !important;
 	font-size:1.3em ;
 	color:#756540 !important;
 	font-weight:900;
@@ -792,7 +763,7 @@ h3 a:hover
 
 .premier_sub
 {
-	padding-left:160px;
+	padding-left:100px;
 	text-shadow:1px 1px 0px #999;
 	font-size:0.7em;
 	line-height:1.2em;
@@ -803,13 +774,15 @@ div.text_index
 {
 	width:510px;
 	float:left;
-	margin:0px 15px;
+	margin:15px;
 	margin-left:0px;
 	padding-top:210px;
 	font-size:1em;
 	line-height:1.3em;
 	text-indent:30px;
 	text-align:justify;
+	background:url(canaima_fondo2.png) no-repeat;
+
 }
 
 div.text_index p a
@@ -1059,7 +1032,7 @@ z-index:10000;
 height:0px;
 position:relative;
 	left:0px;
-	top:-18px;
+	top:-20px;
 }
 
 .livesearchContainer

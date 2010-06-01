@@ -13,15 +13,15 @@
 
         <label for="searchGadget" class="hiddenStructure"
                     i18n:translate="text_search">Search Site</label>
-<div id="clock"><script type="text/javascript">showdate();</script>Cargando Fecha...</div>
+<div id="clock">Introduce tu búsqueda y espera unos segundos.</div>
 
         <input name="SearchableText"
                type="text"
                size="18"
-               value="Campo de Búsqueda"
-               title="Campo de Búsqueda"
-               onfocus="this.value=(this.value=='Campo de Búsqueda') ? '' : this.value;"
-               onblur="this.value=(this.value=='') ? 'Campo de Búsqueda' : this.value;"
+               value="Búsqueda nVivo"
+               title="Búsqueda nVivo"
+               onfocus="this.value=(this.value=='Búsqueda nVivo') ? '' : this.value;"
+               onblur="this.value=(this.value=='') ? 'Búsqueda nVivo' : this.value;"
                accesskey="4"
                i18n:attributes="title title_search_site;"
                tal:attributes="value request/SearchableText|nothing;
@@ -98,22 +98,22 @@
 </span>
 <span class="jFlowControl">
 <div class="bfg">
-1
+
 </div>
 </span>
 <span class="jFlowControl">
 <div class="bfg">
-2
+
 </div>
 </span>
 <span class="jFlowControl">
 <div class="bfg">
-3
+
 </div>
 </span>
 <span class="jFlowControl">
 <div class="bfg">
-4
+
 </div>
 </span>
 <span class="jFlowNext">
@@ -121,12 +121,5 @@
 >
 </div>
 </span>
-</div>
-
-<div id="upperlabel">
-
-<div id="twitter">
-<div class="bfg"><a href="http://twitter.com/CanaimaLinux">CanaimaLinux:</a> <div id="twitter_msg">Cargando Estatus Twitter...</div></div>
-</div>
 
 </div>

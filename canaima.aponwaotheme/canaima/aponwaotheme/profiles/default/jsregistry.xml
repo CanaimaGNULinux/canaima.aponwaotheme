@@ -18,10 +18,6 @@
       for the latest list of all available keys and default values.
       -->
  <javascript 
-    id="++resource++canaima.aponwaotheme.javascripts/twitter.js"
-    cacheable="True" compression="none" cookable="True"
-    enabled="True" expression=""  inline="False"/>
- <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/slimbox2.js"
     cacheable="True" compression="none" cookable="True"
     enabled="True" expression=""  inline="False"/>
@@ -35,10 +31,6 @@
     enabled="True" expression=""  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/lavalamp.js"
-    cacheable="True" compression="none" cookable="True"
-    enabled="True" expression=""  inline="False"/>
- <javascript 
-    id="++resource++canaima.aponwaotheme.javascripts/clock.js"
     cacheable="True" compression="none" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 

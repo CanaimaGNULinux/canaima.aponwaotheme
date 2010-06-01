@@ -8,7 +8,7 @@ jQuery(function() {
     jQuery("#controller").jFlow({
 		slides: ".slides",
 		width: "960px",
-		height: "210px",
+		height: "300px",
 controller: ".jFlowControl", // must be class, use . sign
 auto: true,     //auto change slide, default true
 duration: 700,
@@ -16,6 +16,5 @@ prev: ".jFlowPrev", // must be class, use . sign
 next: ".jFlowNext" // must be class, use . sign
 	});
     
-    jQuery('#twitter_msg').twitterize('CanaimaLinux');
-    
+   
 });

@@ -1,118 +1,76 @@
 <div id="fondo_nothing">
-<div id="content2">
-<div class="post">
-<div class="text">
-
-<object height="240" width="508"><param name="movie" value="http://www.youtube.com/v/lhtR-5bON1c" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed width="508" height="240" allowfullscreen="true" allowscriptaccess="always" type="application/x-shockwave-flash" src="http://www.youtube.com/v/lhtR-5bON1c"></embed></object>
+<div class="text_index">
 
 <br /><br />
 <p><strong>Canaima GNU/Linux</strong> es un proyecto socio-tecnológico abierto, construido de forma colaborativa, centrado en el desarrollo de herramientas y modelos productivos basados en las Tecnologías de Información Libres (TIL) de software y sistemas operativos cuyo objetivo es generar capacidades nacionales, desarrollo endógeno, apropiación y promoción del libre conocimiento, sin perder su motivo original: la construcción de una Nación venezolana tecnológicamente preparada.</p>
 </div>
-</div>
-</div>
 <div id="sidebar3" class="sidebar">
-
-<strong class="e"><strong class="e1"><strong></strong></strong><strong class="e2"><strong></strong></strong><strong class="e3"></strong><strong class="e4"></strong><strong class="e5"></strong></strong>
 <div class="efg">
 <div id="descargas">
-<div class="premier"><a href="#">Estable - 2.0.4</a></div>
-<div class="premier_big"><a href="#">Versión Candidata - 2.1</a></div>
+<div class="premier"><a href="http://descargas.canaima.softwarelibre.gob.ve/canaima-2.0.4-DVD-i386.iso">Estable - 2.0.4</a></div>
+<div class="premier_big"><a href="http://descargas.canaima.softwarelibre.gob.ve/Canaima-2.1-DVDnVivo_all.iso">Versión Candidata - 2.1</a></div>
 <div class="premier_sub">Descargas Canaima GNU/Linux</div>
 </div>
 </div>
-<strong class="e"><strong class="e5"></strong><strong class="e4"></strong><strong class="e3"></strong><strong class="e2"><strong></strong></strong><strong class="e1"><strong></strong></strong></strong>
-
-<br />
-
-<strong class="c"><strong class="c1"><strong></strong></strong><strong class="c2"><strong></strong></strong><strong class="c3"></strong><strong class="c4"></strong><strong class="c5"></strong></strong>
+<div class="cfg">
+<div id="wiki">
+<div class="premier2"><a href="http://wiki.canaima.softwarelibre.gob.ve/">Enciclopedia</a></div>
+<div class="premier_big2"><a href="documentos/presentaciones">Presentaciones</a> - <a href="documentos/arte-grafico">Arte</a></div>
+<div class="premier_sub">Wiki de Canaima GNU/Linux</div>
+</div>
+</div>
+<div class="cfg">
+<div id="recursos">
+<div class="premier2"><a href="http://proyectos.canaima.softwarelibre.gob.ve/">Proyectos</a></div>
+<div class="premier_big2"><a href="http://proyectos.canaima.softwarelibre.gob.ve/canaima/query">Tickets Canaima GNU/Linux</a></div>
+<div class="premier_sub">Trac - Desarrollo - Bichos</div>
+</div>
+</div>
 <div class="cfg">
 <div id="acerca">
-<div class="premier2"><a href="#">Acerca de</a></div>
+<div class="premier2"><a href="canaima_cms/acerca-de">Acerca de</a></div>
+<div class="premier_big2"><a href="actualidad/noticias/aggregator">Noticias</a> - <a href="actualidad/eventos/eventos-pasados">Eventos</a></div>
 <div class="premier_sub">Canaima GNU/Linux</div>
 </div>
 </div>
-<strong class="c"><strong class="c5"></strong><strong class="c4"></strong><strong class="c3"></strong><strong class="c2"><strong></strong></strong><strong class="c1"><strong></strong></strong></strong>
-
-<br />
-
-<strong class="c"><strong class="c1"><strong></strong></strong><strong class="c2"><strong></strong></strong><strong class="c3"></strong><strong class="c4"></strong><strong class="c5"></strong></strong>
 <div class="cfg">
 <div id="registro">
-<div class="premier2"><a href="#">Regístrate</a></div>
+<div class="premier2"><a href="http://registro.canaima.softwarelibre.gob.ve/">Regístrate</a></div>
+<div class="premier_big2"><a href="http://registro.canaima.softwarelibre.gob.ve/">Recuperar Contraseña</a></div>
 <div class="premier_sub">Únete a Canaima GNU/Linux</div>
 </div>
 </div>
-<strong class="c"><strong class="c5"></strong><strong class="c4"></strong><strong class="c3"></strong><strong class="c2"><strong></strong></strong><strong class="c1"><strong></strong></strong></strong>
-
-<br />
-
-<strong class="c"><strong class="c1"><strong></strong></strong><strong class="c2"><strong></strong></strong><strong class="c3"></strong><strong class="c4"></strong><strong class="c5"></strong></strong>
-<div class="cfg">
-<div id="wiki">
-<div class="premier2"><a href="#">Wiki</a></div>
-<div class="premier_sub">Enciclopedia Colaborativa</div>
 </div>
-</div>
-<strong class="c"><strong class="c5"></strong><strong class="c4"></strong><strong class="c3"></strong><strong class="c2"><strong></strong></strong><strong class="c1"><strong></strong></strong></strong>
-
-<br />
-
-<strong class="c"><strong class="c1"><strong></strong></strong><strong class="c2"><strong></strong></strong><strong class="c3"></strong><strong class="c4"></strong><strong class="c5"></strong></strong>
-<div class="cfg">
-<div id="recursos">
-<div class="premier2"><a href="#">Multimedia</a></div>
-<div class="premier_sub">Documentos, Arte Gráfico</div>
-</div>
-</div>
-<strong class="c"><strong class="c5"></strong><strong class="c4"></strong><strong class="c3"></strong><strong class="c2"><strong></strong></strong><strong class="c1"><strong></strong></strong></strong>
-
-<br />
-
-<strong class="c"><strong class="c1"><strong></strong></strong><strong class="c2"><strong></strong></strong><strong class="c3"></strong><strong class="c4"></strong><strong class="c5"></strong></strong>
-<div class="cfg">
-<div id="rss">
-<div class="premier2"><a href="#">Contenido RSS</a></div>
-<div class="premier_sub">Mantente al Dia</div>
-</div>
-</div>
-<strong class="c"><strong class="c5"></strong><strong class="c4"></strong><strong class="c3"></strong><strong class="c2"><strong></strong></strong><strong class="c1"><strong></strong></strong></strong></div>
 <div id="content_index">
 <div class="chicklets">
-<strong class="a"><strong class="a1"><strong></strong></strong><strong class="a2"><strong></strong></strong><strong class="a3"></strong><strong class="a4"></strong><strong class="a5"></strong></strong>
 <div class="afg">
 <div class="chick_h1"><a>Instituciones Participantes</a></div>
 <div class="chick_content">Varias Instituciones, Organizaciones y Cooperativas apoyan activamente y de diversas formas al Proyecto Canaima.<br /><br />Descubre cuales son.</div>
 &nbsp;</div>
-<strong class="a"><strong class="a5"></strong><strong class="a4"></strong><strong class="a3"></strong><strong class="a2"><strong></strong></strong><strong class="a1"><strong></strong></strong></strong></div>
+</div>
 <div class="chicklets">
-
-<strong class="a"><strong class="a1"><strong></strong></strong><strong class="a2"><strong></strong></strong><strong class="a3"></strong><strong class="a4"></strong><strong class="a5"></strong></strong>
 <div class="afg">
 <div class="chick_h1"><a>Canaima Foros</a></div>
 <div class="chick_content">En los Foros Canaima probablemente encontrarás la solución al problema que presentas. Tambien puedes hacer tu aporte a la comunidad de Usuarios.</div>
 &nbsp;</div>
-<strong class="a"><strong class="a5"></strong><strong class="a4"></strong><strong class="a3"></strong><strong class="a2"><strong></strong></strong><strong class="a1"><strong></strong></strong></strong></div>
+</div>
 <div class="chicklets">
-<strong class="a"><strong class="a1"><strong></strong></strong><strong class="a2"><strong></strong></strong><strong class="a3"></strong><strong class="a4"></strong><strong class="a5"></strong></strong>
 <div class="afg">
 <div class="chick_h1"><a>Forma Parte del Proyecto</a></div>
 <div class="chick_content">Conoce de que manera puedes hacer aportes al Proyecto.<br /><br />Recuerda que TÚ eres Canaima GNU/Linux.</div>
 &nbsp;</div>
-<strong class="a"><strong class="a5"></strong><strong class="a4"></strong><strong class="a3"></strong><strong class="a2"><strong></strong></strong><strong class="a1"><strong></strong></strong></strong></div>
+</div>
 <div class="chicklets">
-<strong class="a"><strong class="a1"><strong></strong></strong><strong class="a2"><strong></strong></strong><strong class="a3"></strong><strong class="a4"></strong><strong class="a5"></strong></strong>
 <div class="afg">
 <div class="chick_h1"><a>Desarrollo Colaborativo</a></div>
 <div class="chick_content">Tienes algún Bicho que reportar?<br /><br />Entra al Sistema TRAC para que podamos ayudarte!</div>
 &nbsp;</div>
-<strong class="a"><strong class="a5"></strong><strong class="a4"></strong><strong class="a3"></strong><strong class="a2"><strong></strong></strong><strong class="a1"><strong></strong></strong></strong></div>
+</div>
 <div class="chicklets">
-
-<strong class="a"><strong class="a1"><strong></strong></strong><strong class="a2"><strong></strong></strong><strong class="a3"></strong><strong class="a4"></strong><strong class="a5"></strong></strong>
 <div class="afg">
 <div class="chick_h1"><a>Canaima Educativo</a></div>
 <div class="chick_content">Canaima Educativo es un Proyecto Bandera del Ejecutivo Nacional basado en la Metadistribución Canaima, actualmente forma parte del sistema de Educación Pública.</div>
 &nbsp;</div>
-<strong class="a"><strong class="a5"></strong><strong class="a4"></strong><strong class="a3"></strong><strong class="a2"><strong></strong></strong><strong class="a1"><strong></strong></strong></strong></div>
+</div>
 </div>
 </div>
