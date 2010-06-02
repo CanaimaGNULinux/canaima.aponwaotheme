@@ -1,5 +1,4 @@
 MANIFEST.in
-canaima.aponwaotheme-configure.zcml
 setup.cfg
 setup.py
 canaima/__init__.py
@@ -7,14 +6,13 @@ canaima.aponwaotheme.egg-info/PKG-INFO
 canaima.aponwaotheme.egg-info/SOURCES.txt
 canaima.aponwaotheme.egg-info/dependency_links.txt
 canaima.aponwaotheme.egg-info/namespace_packages.txt
-canaima.aponwaotheme.egg-info/not-zip-safe
 canaima.aponwaotheme.egg-info/requires.txt
 canaima.aponwaotheme.egg-info/top_level.txt
+canaima.aponwaotheme.egg-info/zip-safe
 canaima/aponwaotheme/__init__.py
 canaima/aponwaotheme/configure.zcml
 canaima/aponwaotheme/profiles.zcml
 canaima/aponwaotheme/skins.zcml
-canaima/aponwaotheme/version.txt
 canaima/aponwaotheme/browser/__init__.py
 canaima/aponwaotheme/browser/configure.zcml
 canaima/aponwaotheme/browser/interfaces.py
@@ -56,7 +54,4 @@ canaima/aponwaotheme/skins/aponwao_templates/main_template.pt
 canaima/aponwaotheme/skins/aponwao_templates/plone_control_panel.pt
 canaima/aponwaotheme/skins/aponwao_templates/portlet_prefs.pt
 canaima/aponwaotheme/skins/aponwao_templates/prefs_main_template.pt
-docs/HISTORY.txt
-docs/INSTALL.txt
-docs/LICENSE.GPL
 docs/LICENSE.txt
