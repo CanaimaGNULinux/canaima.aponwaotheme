@@ -8,6 +8,12 @@ Main product initializer
 # This will be imported with the special name "_" in most modules. Strings
 # like _(u"message") will then be extracted by i18n tools for translation.
 
+try:
+    __import__('pkg_resources').declare_namespace(__name__)
+except ImportError:
+    from pkgutil import extend_path
+    __path__ = extend_path(__path__, __name__)
+
 GLOBALS = globals()
 
 #techlightMessageFactory = MessageFactory('canaima.aponwaotheme')

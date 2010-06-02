@@ -8,14 +8,12 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.9'
 
-tests_require=['zope.testing']
 
 setup(name='canaima.aponwaotheme',
-      version=version,
+      version='0.9',
       description="Versión instalable del tema Canaima Aponwao",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open(os.path.join("docs", "README")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -34,12 +32,9 @@ setup(name='canaima.aponwaotheme',
       include_package_data=True,
       zip_safe=False,
       install_requires=['setuptools'],
-      tests_require=tests_require,
-      extras_require=dict(tests=tests_require),
-      test_suite = 'canaima.aponwaotheme.tests',
-      paster_plugins = ["ZopeSkel",],
       setup_requires = ["setuptools",],
-      theme_vars = {'skinname': 'Canaima Aponwao',
+      theme_vars = {
+          'skinname'          : 'Tema Canaima Aponwao para Plone',
           'skinbase'          : 'Plone Default',
           'namespace_package' : 'canaima',
           'package'           : 'aponwaotheme',

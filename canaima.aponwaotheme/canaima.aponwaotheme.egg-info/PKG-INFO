@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: canaima.aponwaotheme
-Version: 0.1dev-r49
-Summary: Provides the standard CANAIMA GNU/Linux Website look and feel, colors, css, etc.
-Home-page: http://plone.net/providers/leonardo-j-caballero-g
-Author: Leonardo J. Caballero G.
-Author-email: lcaballero@cenditel.gob.ve
+Version: 0.9beta
+Summary: Versión instalable del tema Canaima Aponwao
+Home-page: http://canaima.softwarelibre.gob.ve/
+Author: Equipo de Desarrollo de Canaima GNU/Linux
+Author-email: desarrolladores@canaima.softwarelibre.gob.ve
 License: GPL
 Description: Introduction
         ============
@@ -35,10 +35,9 @@ Description: Introduction
         [zopeskel]
         
         
-Keywords: web zope plone3 theme cms canama gnu linux venezuela
+Keywords: web zope plone theme canaima gnu linux aponwao cms
 Platform: UNKNOWN
 Classifier: Framework :: Plone
-Classifier: Framework :: Zope2
-Classifier: Framework :: Zope3
-Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
 Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
