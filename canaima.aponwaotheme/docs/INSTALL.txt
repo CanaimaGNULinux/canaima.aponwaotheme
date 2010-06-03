@@ -1,5 +1,5 @@
-canaima.aponwaotheme Installation
----------------------------------
+INSTALACIÓN
+------------
 
 To install canaima.aponwaotheme into the global Python environment (or a workingenv),
 using a traditional Zope 2 instance, you can do this:

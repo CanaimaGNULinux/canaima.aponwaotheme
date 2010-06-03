@@ -10,4 +10,3 @@ class SearchBoxViewlet(common.SearchBoxViewlet):
 
 class Favicon(FaviconViewlet):
     render = ViewPageTemplateFile('templates/favicon.pt')
-    

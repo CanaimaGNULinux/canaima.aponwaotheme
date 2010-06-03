@@ -42,7 +42,6 @@
     permission="zope2.View"
 />
 
-
     <!-- Resource directory for templates -->
     <browser:resourceDirectory
         name="canaima.aponwaotheme.templates"
