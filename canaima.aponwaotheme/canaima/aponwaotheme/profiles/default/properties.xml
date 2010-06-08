@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <site>
- <property name="default_page" type="string">index</property>
+ <property name="default_page" type="string">canaima-gnu-linux</property>
 </site>

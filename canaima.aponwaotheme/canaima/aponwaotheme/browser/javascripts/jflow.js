@@ -132,9 +132,9 @@
 					dur = maxi -1;
 				}
 				$(jFC).removeClass(jSel);
-				$(jFS).fadeOut("fast");
+				//$(jFS).fadeOut("fast");
 				slide(dur, cur);
-				$(jFS).fadeIn("slow");
+				//$(jFS).fadeIn("slow");
 				$(jFC).eq(cur).addClass(jSel);
 			}
 		}
@@ -146,7 +146,7 @@
 			    
         		timer = setInterval(function() {
 	                	$(opts.next).click();
-						}, 4000);
+						}, 10000);
 			}
 		}
 

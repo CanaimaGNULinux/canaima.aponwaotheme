@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <import-steps>
+
   <import-step id="canaima.aponwaotheme.various"
                version="20090403-01"
                handler="canaima.aponwaotheme.setuphandlers.setupVarious"
@@ -8,7 +9,6 @@
     Various import steps that are not handled by GS import/export
     handlers.
   </import-step>
- <!-- -*- extra stuff goes here -*- -->
 
   <import-step id="canaima.aponwaotheme.import_zexps" 
                version="20090819-01" 
