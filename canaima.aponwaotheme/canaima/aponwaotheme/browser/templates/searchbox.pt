@@ -29,12 +29,12 @@
                class="inputLabel" />
 
 
-        <input class="searchButton"
+       <input class="searchButton"
                type="submit"
                value="Search"
                i18n:attributes="value label_search;" />
     
-        <div class="searchSection">
+    <div class="searchSection">
             <input id="searchbox_currentfolder_only" 
                    class="noborder"
                    type="checkbox" 
@@ -73,7 +73,9 @@
 <div class="slides">
 
 <div>
-<div class="slides_image1"></div>
+<a href="descargas" class="slides_image1_1"></a>
+<a href="http://wiki.canaima.softwarelibre.gob.ve/wiki/index.php/Instalación_estándar" class="slides_image1_2"></a>
+<a href="unirse-al-proyecto" class="slides_image1_3"></a>
 </div>
 
 <div>
@@ -88,7 +90,9 @@
 <div class="slides_image4"></div>
 </div>
 
-
+<div>
+<div class="slides_image5"></div>
+</div>
 
 </div>
 
@@ -97,6 +101,11 @@
 <span class="jFlowPrev">
 <div class="bfg">
 <
+</div>
+</span>
+<span class="jFlowControl">
+<div class="bfg">
+
 </div>
 </span>
 <span class="jFlowControl">

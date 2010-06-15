@@ -18,24 +18,104 @@
       for the latest list of all available keys and default values.
       -->
  <javascript 
+    id="jquery.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="jquery-integration.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="event-registration.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="register_function.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="plone_javascript_variables.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="nodeutilities.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="cookie_functions.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="livesearch.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="select_all.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="dragdropreoder.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="collapsiblesections.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="form_tabbing.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="input-label.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="highlightsearchterms.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="se-highlight.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+  <javascript 
+    id="first_input_focus.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="accessibility.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="styleswitcher.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="toc.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++base2-dom-fp.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/slimbox2.js"
-    cacheable="True" compression="none" cookable="True"
+    cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/jflow.js"
-    cacheable="True" compression="none" cookable="True"
+    cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
 <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/easing.js"
-    cacheable="True" compression="none" cookable="True"
+    cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/lavalamp.js"
-    cacheable="True" compression="none" cookable="True"
+    cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/scripts.js"
-    cacheable="True" compression="none" cookable="True"
+    cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
 
 

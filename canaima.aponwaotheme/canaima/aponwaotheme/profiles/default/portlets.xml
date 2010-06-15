@@ -16,7 +16,7 @@
      category="context"
      key="/"
      />
-     
+ <!--    
  <assignment
      purge="True"
      manager="plone.leftcolumn"
@@ -72,4 +72,5 @@
      category="context"
      key="/canaima_cms/actualidad"
      />
+     -->
 </portlets>

@@ -9,11 +9,16 @@
 	background:transparent
 }
 
+strong
+{
+font-weight:500 !important;
+}
+
 table,tr,td
 {
 	vertical-align:top;
 	border-collapse:collapse;
-	border-spacing:0
+	border-spacing:0;
 }
 
 ol,ul
@@ -54,6 +59,27 @@ form
 	outline:0
 }
 
+fieldset{
+float:left;width:920px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	padding:5px!important;
+}
+
+div.error
+{
+width:930px !important;
+}
+
+legend
+{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+}
 
 body
 {
@@ -69,9 +95,9 @@ textarea
 width:99% !important;
 }
 
-textarea #description
+textarea#description, input#title
 {
-font-size:1.2em;
+width:928px !important;
 }
 
 table
@@ -199,7 +225,8 @@ a:hover
 	-webkit-border-top-right-radius:5px;
 	border-top-right-radius:5px;
 	-khtml-border-top-right-radius:5px;
-	width:950px
+	width:950px;
+	height:62px
 }
 
 #searchGadget
@@ -220,7 +247,16 @@ width:304px;
 	border:none !important
 }
 
+input, textarea
+{
+	font-family:"DejaVu Sans", "Microsoft Sans Serif", verdana, sans-serif !important;
+}
 
+#portal-column-content fieldset > * textarea.kupu-editor-textarea
+{
+width:928px !important;
+font-size:1.5em
+}
 
 input.searchButton,.searchSection
 {
@@ -259,6 +295,17 @@ h1 a:hover
 	width:100%;
 	float:left;
 	margin:1px 0px;
+	display:block;
+}
+
+div.documentDescription_
+{
+float:none !important
+}
+
+#user-name img
+{
+display:none
 }
 
 #clock
@@ -356,10 +403,9 @@ line-height:1.2em
 .documentActions
 {
 float:right;
-
 }
 
-#document-action-sendto, #document-action-print
+#document-action-sendto, #document-action-print, #document-action-rss, #document-action-ics, #document-action-vcs
 {
 	background-color:#e2dac7;
 	padding:5px;
@@ -371,7 +417,7 @@ float:right;
 	margin:5px;
 }
 
-#document-action-sendto a, #document-action-print a
+#document-action-sendto a, #document-action-print a, #document-action-rss a, #document-action-ics a, #document-action-vcs a
 {
 	color:#000;
 	font-size:1.2em;
@@ -379,9 +425,9 @@ float:right;
 	background: transparent !important;
 }
 
-#document-action-sendto a:hover, #document-action-print a:hover
+#document-action-sendto a:hover, #document-action-print a:hover, #document-action-rss a:hover, #document-action-ics a:hover, #document-action-vcs a:hover
 {
-	color:#444;
+	color:#666;
 	text-decoration:none;
 	background: transparent !important;
 
@@ -428,12 +474,28 @@ float:right;
 	padding:0 10px
 }
 
-.slides_image1
+.slides_image1_1
 {
 	height:300px;
-	width:960px;
+	width:332px;
 	float:left;
-	background:url(banner1.jpg) no-repeat center center;
+	background:url(banner1_1.jpg) no-repeat center center;
+}
+
+.slides_image1_2
+{
+	height:300px;
+	width:296px;
+	float:left;
+	background:url(banner1_2.jpg) no-repeat center center;
+}
+
+.slides_image1_3
+{
+	height:300px;
+	width:332px;
+	float:left;
+	background:url(banner1_3.jpg) no-repeat center center;
 }
 
 .slides_image2
@@ -460,6 +522,14 @@ float:right;
 	background:url(banner4.jpg) no-repeat center center;
 }
 
+.slides_image5
+{
+	height:300px;
+	width:960px;
+	float:left;
+	background:url(banner5.jpg) no-repeat center center;
+}
+
 #controller
 {
 	height:0px;
@@ -482,10 +552,18 @@ h2
 	margin:1em 0;
 	border-bottom: 1px solid #452f27;
 	font-size: 1.3em;
-	padding: 5px;
+	padding: 5px 0px;
 	color:#4d4d46;
-
+float:left;
+width:100%
 }
+
+.tileBody, .tileFooter
+{
+float:left;
+width:100%
+}
+
 /*
 h2 span
 {
@@ -567,6 +645,7 @@ h3 a:hover
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
+	color:#000;
 }
 
 #portal-footer
@@ -946,7 +1025,7 @@ float:left;
 #content
 {
 font-size:1em;
-padding:0px 15px;
+
 
 }
 
@@ -984,6 +1063,11 @@ dl.collapsible,#parent-fieldname-text,.documentEditable
 	padding:0;
 	border:0;
 	outline:0
+}
+
+.documentContent
+{
+float:left
 }
 
 #portal-breadcrumbs
@@ -1046,12 +1130,13 @@ dl.collapsible,#parent-fieldname-text,.documentEditable
 
 #portal-personaltools li img
 {
-	display:none
+	display_:none
 }
 
 h1.documentFirstHeading
 {
 	margin:5px 0px;
+	line-height: 1.2em;
 }
 
 
@@ -1068,7 +1153,7 @@ width:910px;
 
 }
 
-.portalMessage
+dl.portalMessage,.warning
 {
 	color:#000;
 	font-size:1.2em;
@@ -1083,24 +1168,24 @@ width:910px;
 	-khtml-border-radius:5px;
 	vertical-align:middle;
 	margin:10px 0px;
-	width:930px;
+	width:920px
 }
 
-
-.warning
+p.portalMessage
 {
 	color:#000;
 	font-size:1.2em;
-	line-height:1.2em;
-	float:none;
+	line-height:1em;
+	float:left;
 	padding:5px;
-	background:#FA8072;
 	text-align:center;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
-	vertical-align:middle
+	vertical-align:middle;
+	margin:10px auto;
+	border:none !important;
 }
 
 .warning a
@@ -1122,13 +1207,24 @@ width:910px;
 
 #region-content
 {
-width:960px
+width:930px;
+padding:0px 15px;
 
 }
 
-#livesearchLegend, span.discreet, div.LSDescr
+#livesearchLegend, div.LSDescr, span.discreet
 {
 display:none;
+}
+
+p.discreet
+{
+float:left
+}
+
+a.discreet
+{
+background:none !important;
 }
 
 .LSResult
@@ -1137,7 +1233,7 @@ z-index:10000;
 height:0px;
 position:relative;
 	left:0px;
-	top:-20px;
+	top:-22px;
 }
 
 .livesearchContainer
@@ -1154,7 +1250,15 @@ position:relative;
 	-moz-border-radius-bottomright:5px;
 	-webkit-border-bottom-right-radius:5px;
 	border-bottom-right-radius:5px;
-	-khtml-border-bottom-right-radius:5px
+	-khtml-border-bottom-right-radius:5px;
+	position:relative;
+	left:0px;
+	top:0px;
+}
+
+.livesearchContainer img
+{
+display:none
 }
 
 .livesearchContainer ul
@@ -1191,7 +1295,7 @@ position:relative;
 
 .livesearchContainer ul li a:hover,.livesearchContainer ul li a:hover strong
 {
-	background:#d1be8f;
+	background:#d1b264;
 	text-decoration:none
 }
 
@@ -1201,22 +1305,51 @@ position:relative;
 	font-weight:700
 }
 
-
-.state-published,.state-private,.state-missing-value,.state-unapproved,.state-memberposting
+.state-closed,.state-published,.state-private,.state-missing-value,.state-unapproved,.state-memberposting,.state-hidden,.state-final,.state-release-candidate,.state-pre-release
 {
 background:transparent !important;
 margin:0px !important;
-color:#444 !important;
-font-size:16px !important
+color:#000 !important;
+font-size:16px !important;
+padding:5px 0px;
+}
+
+a.state-published:hover,a.state-private:hover,a.state-missing-value:hover,a.state-unapproved:hover,a.state-memberposting:hover,a.state-hidden:hover,a.state-final:hover,a.state-release-candidate:hover,a.state-closed:hover,a.state-pre-release:hover
+{
+color:#888 !important;
+}
+
+a.state-published img,a.state-closed img,a.state-private img,a.state-missing-value img,a.state-unapproved img,a.state-memberposting img,.state-hidden img,.state-final img,.state-release-candidate img
+{
+vertical-align:middle
 }
 
 .state-unapproved
 {
 color:#fa8072 !important;
-font-weight:700;
 }
 
-#portletmanager-plone-rightcolumn, #portletmanager-plone-leftcolumn
+.state-private
+{
+color: red !important;
+}
+
+tr.odd
+{
+background-color:#fff;
+}
+
+td
+{
+padding:2px 0px;
+}
+
+span.contenttype-file img, span.contenttype-plone-site img, span.contenttype-large-plone-folder img, span.contenttype-plonesoftwarecenter img, span.contenttype-news-item img, span.contenttype-document img, span.contenttype-pscrelease img, span.contenttype-link img, span.contenttype-pscproject img
+{
+vertical-align:middle;
+}
+
+#portletmanager-plone-rightcolumn_, #portletmanager-plone-leftcolumn_
 {
 position:relative;
 top: 200px;
@@ -1301,8 +1434,12 @@ text-transform: uppercase;
 	margin:5px;
 	border:none;
 text-transform: uppercase;
-
 }
+.formControls
+{
+float:left !important
+}
+
  #archetypes-fieldname-title input
  {
  padding: 2px 0px;
@@ -1317,11 +1454,14 @@ width:930px;
 .link-parent
 {
 float:right;
+width_:200px;
+margin:10px 0px;
+margin-left_:730px
 }
 
-span.contenttype-document img, span.contenttype-news.item img
+span.contenttype-document img, span.contenttype-topic img
 {
-display_:none
+vertical-align:middle;
 }
 
 li.formTab a
@@ -1339,12 +1479,14 @@ background-color: white !important;
 
 ul.formTabs
 {
-margin-bottom:-3em !important;
+margin:15px 0px !important;
+float:left;
+width:100%
 }
 
 th.nosort
 {
-margin:20px 0px;
+padding:5px 0px;
 
 }
 
@@ -1356,22 +1498,42 @@ margin:20px 0px !important;
 .fieldRequired
 {color:red}
 
-fieldset
-{
-border:none !important;
-padding:20px 0px!important;
-}
-
 .formPanel
 {
 padding:0px !important;
-
+float:left;
+width:930px
 }
+
+body.kupu
+{
+background-color:#fff;
+font-size:1.5em
+}
+
+iframe.kupu-editor-iframe, .kupu-tb
+{
+width:924px !important;
+border: none !important;
+}
+
 
 select
 {
-background: url("input_background.gif") 0px 0px repeat-x;
+background: #fff url("input_background.gif") 0px 0px repeat-x ;
+font-size:1.2em;
+border:1px #444 solid;
+}
 
+select.kupu-tb-styles
+{
+font-size:0.8em;
+}
+
+ul#contentActionMenus li a img
+{
+
+display:none;
 }
 
 div.listingBar
@@ -1413,29 +1575,115 @@ float:left;
 dt.collapsibleHeader
 {
 
-width:900px !important;
+width:870px !important;
 }
 
-ul.configlets li
+dd.portletItem ul.configlets li
 {
 float:left;
 }
 
 ul.configlets li a
 {
-margin:3px;
+margin:5px;
 font-size:16px;
 color:#444;
 }
 
+ul.configlets li label
+{
+width:800px !important;
+}
+
+ul.configletDetails li
+{
+width:800px !important;
+}
+
+
+ul.configletDetails li a
+{
+font-size:0.9em
+}
+
+ul.configletDetails li label img, ul.configletDetails li a img
+{
+width:16px;
+height:16px;
+vertical-align:middle;
+}
+
 dd.portletItem
 {
-width:960px;
 float:left;
-margin:15px;
+margin:2px 0px;
+}
+
+dl.portletThirdWidth
+{
+width:930px !important;
 }
 
 table.listing
 {
-width:100%
+width:930px;
+margin:15px;
 }
+
+dt.portletHeader, dt.portletFooter
+{
+	font-size:1.2em;
+	color:#000;
+	font-weight:700;
+	line-height:1em;
+	padding:5px;
+	background:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	vertical-align:middle;
+	margin:10px 5px;
+}
+
+dt.portletHeader a, dt.portletFooter a
+{
+	font-size:1.2em;
+	color:#444;
+	font-weight:500;
+	background-color: transparent !important;
+}
+
+dt.portletHeader a:hover, dt.portletFooter a:hover
+{
+	color:#888;
+	background-color: transparent !important;
+
+}
+
+div.eventDetails
+{
+float:left;
+width:930px;
+	font-size:1.2em;
+	color:#000;
+	line-height:1.2em;
+	padding:5px;
+	background:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	vertical-align:middle;
+	margin:15px 5px;
+}
+
+div.eventDetails th
+{
+width:20%
+}
+div.eventDetails td
+{
+width:75%
+}
+

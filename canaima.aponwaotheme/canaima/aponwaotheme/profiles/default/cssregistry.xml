@@ -1,65 +1,70 @@
 <?xml version="1.0"?>
 <object name="portal_css">
 
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="main.css" media="screen" rel="stylesheet"
-    rendering="import"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+    rendering="link"/>
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="member.css" media="screen" rel="stylesheet"
-    rendering="import"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+    rendering="link"/>
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="invisibles.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="kupustyles.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="kupuplone.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="kupudrawerstyles.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="0" expression="" id="base.css" media="screen" rel="stylesheet"
-    rendering="import"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+    rendering="link"/>
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="0" expression="" id="public.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="columns.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="authoring.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="0" expression="" id="portlets.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="controlpanel.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="print.css" media="print" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="deprecated.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="navtree.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="forms.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="ploneKss.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="0" expression="" id="RTL.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="ploneCustom.css" media="screen" rel="stylesheet"
     rendering="link"/>
- <stylesheet title="" cacheable="True" compression="safe" cookable="True"
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="0" expression="" id="mobile.css" media="screen" rel="stylesheet"
     rendering="link"/>
-
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
+    enabled="1" expression="" id="collage.css" media="screen" rel="stylesheet"
+    rendering="link"/>
+ <stylesheet title="" cacheable="True" compression="full" cookable="True"
+    enabled="1" expression="" id="helpcenter.css" media="screen" rel="stylesheet"
+    rendering="link"/>
 </object>
