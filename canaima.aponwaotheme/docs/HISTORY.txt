@@ -1,11 +1,36 @@
-Changelog
-=========
+CHANGELOG
+-----------
 
-    (name of developer listed in brackets)
+	- 0.1-dev
+	Versión Inicial.
 
-canaima.aponwaotheme - 0.1 - Unreleased
----------------------------------------
+	- 0.3-dev
+	Cambios de estilo, imágenes y javascript.
 
-    - Initial package structure.
-      [zopeskel]
+	- 0.3.1-dev
+	Cambios de Estilo menores.
+
+	- 0.3.2-dev
+	Cambios estructurales y de estilo menores.
+
+	- 0.4-dev
+	Cambios de Diseño en la iconografía, cambios menores en el javascript.
+
+	- 0.5-dev
+	Limpieza de binarios innecesarios.
+
+	- 0.6-dev
+	Limpieza de binarios, corrección de bugs menores de instalación.
+
+	- 0.7-dev
+	Modificación de archivos de documentación, bugs menores corregidos.
+
+	- 0.8-dev
+	Implementación de sistema de Importación de ZEXP.
+
+	- 0.9-dev
+	Cambios estructurales menores.
+
+	- 1.0-0
+	Cambios a la versión final del tema.
 

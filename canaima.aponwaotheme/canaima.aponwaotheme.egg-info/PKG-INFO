@@ -1,97 +1,125 @@
 Metadata-Version: 1.0
 Name: canaima.aponwaotheme
-Version: 0.9.1dev
+Version: 1.0-0
 Summary: Tema Canaima Aponwao para Plone, basado en la Metadistribución venezolana "Canaima GNU/Linux"
 Home-page: http://canaima.softwarelibre.gob.ve/
 Author: Equipo de Desarrollo de Canaima GNU/Linux
-			Luis A. Martinez F.
-			Leonardo J. Caballero G.
+			Luis Martínez
+			Leonardo Caballero
+			Xavier Araque
 Author-email: desarrolladores@canaima.softwarelibre.gob.ve
 License: GPL
 Description: 
         
-        Introduction
-        ============
+        INTRODUCCIÓN
+        ------------
         
-        An installable theme for Plone 3.0 by CANAIMA GNU/Linux Website
+        Éste es un tema instalable para Plone 3.0 diseñado en base al estilo
+        de la Metadistribución Canaima GNU/Linux, desarrollado y mantenido por
+        el equipo de desarrollo web de la Metadistribución [1].
         
-        Based on the Canaima Aponwao theme Luis Alejandro Martínez Faneyth
-        (http://huntingbears.co.cc/).
-        
-        This theme has not gone through the rounds of browser testing
-        so it should be considered an alpha release.
-        
-        Luis Alejandro Martínez Faneyth was based on a WordPress theme
-        called FREEmium released for free by FreebiesDock.com
-        Authors: Paul Kadysz (design) and Dariusz Siedlecki (frontend)
+        Canaima Aponwao está basado en el tema para Wordpress "FREEMium" [2] y
+        en el Producto para Plone "quintagroup.theme.techlight" [3], en estilo
+        y sistema de archivos respectivamente.
         
         
+        [1] Luis Martínez (HuntingBears)
+        Leonardo Caballero (macagua)
+        Xavier Araque (Rendergraf)
+        
+        [2] Tema bajo licencia GPL
+        Desarrollado por Paul Kadysz, Dariusz Siedlecki
+        Disponible en http://www.freebiesdock.com/
+        
+        [3] Tema bajo licencia GPL
+        Desarrollado por Y. Hvozdovych, N. Ilchuk, V. Rudnytskyy
+        Disponible en http://skins.quintagroup.com/techlight
+        Contacto en skins@quintagroup.com
+        
+        Más Información: canaima.aponwaotheme.egg-info/PKG-INFO
         
         
-        canaima.aponwaotheme Installation
-        ---------------------------------
+        INSTALACIÓN
+        ------------
         
-        To install canaima.aponwaotheme into the global Python environment (or a workingenv),
-        using a traditional Zope 2 instance, you can do this:
+        :: Instalación de Plone ::
         
-        * When you're reading this you have probably already run
-        ``easy_install canaima.aponwaotheme``. Find out how to install setuptools
-        (and EasyInstall) here:
-        http://peak.telecommunity.com/DevCenter/EasyInstall
+        - Descarga el instalador para linux desde la siguiente dirección:
         
-        * If you are using Zope 2.9 (not 2.10), get `pythonproducts`_ and install it
-        via::
+        http://plone.org/products/plone/releases/3.3.5
         
-        python setup.py install --home /path/to/instance
+        - Descomprime el archivo en la carpeta de tu preferencia
+        - Dentro de la carpeta descomprimida, ejecuta el siguiente comando:
         
-        into your Zope instance.
+        $ sh install.sh standalone
         
-        * Create a file called ``canaima.aponwaotheme-configure.zcml`` in the
-        ``/path/to/instance/etc/package-includes`` directory.  The file
-        should only contain this::
+        - Después de la instalación, puedes iniciar una instancia de la siguiente forma:
         
-        <include package="canaima.aponwaotheme" />
+        $ cd ~/Plone/zinstance/
+        $ bin/plonectl start
         
-        .. _pythonproducts: http://plone.org/products/pythonproducts
+        - Puedes acceder a tu sitio a través de la siguiente dirección:
+        
+        http://localhost:8080/
         
         
-        Alternatively, if you are using zc.buildout and the plone.recipe.zope2instance
-        recipe to manage your project, you can do this:
+        :: Instalación del Tema Canaima Aponwao ::
         
-        * Add ``canaima.aponwaotheme`` to the list of eggs to install, e.g.:
+        - Ubica tu archivo buildout.cfg en el directorio $INSTANCE_HOME (normalmente ~/Plone/zinstance/).
+        - Abrelo con tu editor de texto preferido.
+        - Agrega las siguientes líneas en el apartado [buildout]:
         
         [buildout]
         ...
         eggs =
         ...
         canaima.aponwaotheme
-        
-        * Tell the plone.recipe.zope2instance recipe to install a ZCML slug:
-        
-        [instance]
-        recipe = plone.recipe.zope2instance
         ...
         zcml =
         canaima.aponwaotheme
         
-        * Re-run buildout, e.g. with:
+        - Reconfigura tu instancia Plone con el siguiente comando dentro de tu directorio $INSTANCE_HOME:
         
         $ ./bin/buildout
         
-        You can skip the ZCML slug if you are going to explicitly include the package
-        from another package's configure.zcml file.
+        - Instala el Producto desde la aplicación "Quick Installer" del ZMI
         
         
-        Changelog
-        =========
+        CHANGELOG
+        -----------
         
-        (name of developer listed in brackets)
+        - 0.1-dev
+        Versión Inicial.
         
-        canaima.aponwaotheme - 0.1 - Unreleased
-        ---------------------------------------
+        - 0.3-dev
+        Cambios de estilo, imágenes y javascript.
         
-        - Initial package structure.
-        [zopeskel]
+        - 0.3.1-dev
+        Cambios de Estilo menores.
+        
+        - 0.3.2-dev
+        Cambios estructurales y de estilo menores.
+        
+        - 0.4-dev
+        Cambios de Diseño en la iconografía, cambios menores en el javascript.
+        
+        - 0.5-dev
+        Limpieza de binarios innecesarios.
+        
+        - 0.6-dev
+        Limpieza de binarios, corrección de bugs menores de instalación.
+        
+        - 0.7-dev
+        Modificación de archivos de documentación, bugs menores corregidos.
+        
+        - 0.8-dev
+        Implementación de sistema de Importación de ZEXP.
+        
+        - 0.9-dev
+        Cambios estructurales menores.
+        
+        - 1.0-0
+        Cambios a la versión final del tema.
         
         
 Keywords: web zope plone theme canaima gnu linux aponwao cms

@@ -1,52 +1,44 @@
 INSTALACIÓN
 ------------
 
-To install canaima.aponwaotheme into the global Python environment (or a workingenv),
-using a traditional Zope 2 instance, you can do this:
+:: Instalación de Plone ::
 
-* When you're reading this you have probably already run 
-  ``easy_install canaima.aponwaotheme``. Find out how to install setuptools
-  (and EasyInstall) here:
-  http://peak.telecommunity.com/DevCenter/EasyInstall
+- Descarga el instalador para linux desde la siguiente dirección:
+	
+	http://plone.org/products/plone/releases/3.3.5
 
-* If you are using Zope 2.9 (not 2.10), get `pythonproducts`_ and install it 
-  via::
+- Descomprime el archivo en la carpeta de tu preferencia
+- Dentro de la carpeta descomprimida, ejecuta el siguiente comando:
 
-    python setup.py install --home /path/to/instance
+	$ sh install.sh standalone
 
-into your Zope instance.
+- Después de la instalación, puedes iniciar una instancia de la siguiente forma:
 
-* Create a file called ``canaima.aponwaotheme-configure.zcml`` in the
-  ``/path/to/instance/etc/package-includes`` directory.  The file
-  should only contain this::
+	$ cd ~/Plone/zinstance/
+	$ bin/plonectl start
 
-    <include package="canaima.aponwaotheme" />
+- Puedes acceder a tu sitio a través de la siguiente dirección:
 
-.. _pythonproducts: http://plone.org/products/pythonproducts
+	http://localhost:8080/
+	
 
+:: Instalación del Tema Canaima Aponwao ::
 
-Alternatively, if you are using zc.buildout and the plone.recipe.zope2instance
-recipe to manage your project, you can do this:
-
-* Add ``canaima.aponwaotheme`` to the list of eggs to install, e.g.:
+- Ubica tu archivo buildout.cfg en el directorio $INSTANCE_HOME (normalmente ~/Plone/zinstance/).
+- Abrelo con tu editor de texto preferido.
+- Agrega las siguientes líneas en el apartado [buildout]:
 
     [buildout]
     ...
     eggs =
         ...
         canaima.aponwaotheme
-       
-* Tell the plone.recipe.zope2instance recipe to install a ZCML slug:
-
-    [instance]
-    recipe = plone.recipe.zope2instance
     ...
     zcml =
         canaima.aponwaotheme
-      
-* Re-run buildout, e.g. with:
+
+- Reconfigura tu instancia Plone con el siguiente comando dentro de tu directorio $INSTANCE_HOME:
 
     $ ./bin/buildout
-        
-You can skip the ZCML slug if you are going to explicitly include the package
-from another package's configure.zcml file.
+    
+- Instala el Producto desde la aplicación "Quick Installer" del ZMI

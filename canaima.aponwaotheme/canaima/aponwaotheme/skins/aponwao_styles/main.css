@@ -11,14 +11,14 @@
 
 strong
 {
-font-weight:500 !important;
+	font-weight:500!important
 }
 
 table,tr,td
 {
 	vertical-align:top;
 	border-collapse:collapse;
-	border-spacing:0;
+	border-spacing:0
 }
 
 ol,ul
@@ -59,18 +59,21 @@ form
 	outline:0
 }
 
-fieldset{
-float:left;width:920px;
+fieldset
+{
+	float:left;
+	width:920px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
 	padding:5px!important;
+	border:none!important
 }
 
 div.error
 {
-width:930px !important;
+	width:930px!important
 }
 
 legend
@@ -78,7 +81,7 @@ legend
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	-khtml-border-radius:5px;
+	-khtml-border-radius:5px
 }
 
 body
@@ -92,28 +95,28 @@ body
 
 textarea
 {
-width:99% !important;
+	width:99%!important
 }
 
-textarea#description, input#title
+textarea#description,input#title
 {
-width:928px !important;
+	width:928px!important
 }
 
 table
 {
-width:100%;
+	width:100%;
 	border-spacing:3px
 }
 
 tr
 {
-margin: 3px 0px;
+	margin:3px 0
 }
 
 thead
 {
-font-size:1.2em
+	font-size:1.2em
 }
 
 #visual-portal-wrapper
@@ -124,14 +127,8 @@ font-size:1.2em
 
 a
 {
-	text-decoration:none;
-	/*color:#889800*/
+	text-decoration:none
 }
-/*
-a:hover
-{
-	text-decoration:underline
-}*/
 
 #menu
 {
@@ -142,7 +139,7 @@ a:hover
 	width:960px;
 	font-weight:700;
 	text-transform:uppercase;
-	font-size:1.6em;
+	font-size:1.6em
 }
 
 #menu ul
@@ -212,7 +209,6 @@ a:hover
 
 #portal-searchbox
 {
-
 	float:left;
 	text-align:left;
 	padding:5px;
@@ -225,13 +221,12 @@ a:hover
 	-webkit-border-top-right-radius:5px;
 	border-top-right-radius:5px;
 	-khtml-border-top-right-radius:5px;
-	width:950px;
-	height:62px
+	width:950px
 }
 
 #searchGadget
 {
-width:304px;
+	width:304px;
 	margin:3px 0;
 	margin-top:10px;
 	color:#ab9b75;
@@ -244,18 +239,18 @@ width:304px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
-	border:none !important
+	border:none!important
 }
 
-input, textarea
+input,textarea
 {
-	font-family:"DejaVu Sans", "Microsoft Sans Serif", verdana, sans-serif !important;
+	font-family:"DejaVu Sans", "Microsoft Sans Serif", verdana, sans-serif!important
 }
 
 #portal-column-content fieldset > * textarea.kupu-editor-textarea
 {
-width:928px !important;
-font-size:1.5em
+	width:928px!important;
+	font-size:1.5em
 }
 
 input.searchButton,.searchSection
@@ -265,15 +260,14 @@ input.searchButton,.searchSection
 
 #img_header
 {
-	float:left;
+	float:left
 }
 
 h1
 {
 	font-family:"DejaVu Sans", "Microsoft Sans Serif", verdana, sans-serif;
 	font-size:2em;
-	font-weight:700;
-	
+	font-weight:700
 }
 
 h1 a
@@ -290,22 +284,22 @@ h1 a:hover
 	color:#000
 }
 
-.documentDescription,.documentByLine, #link-presentation
+.documentDescription,.documentByLine,#link-presentation
 {
 	width:100%;
 	float:left;
-	margin:1px 0px;
-	display:block;
+	margin:1px 0;
+	display:block
 }
 
 div.documentDescription_
 {
-float:none !important
+	float:none!important
 }
 
 #user-name img
 {
-display:none
+	display:none
 }
 
 #clock
@@ -319,10 +313,10 @@ display:none
 {
 	width:100%;
 	float:left;
-	margin:0px 15px;
-	margin-left:0px;
+	margin:0 15px;
+	margin-left:0;
 	text-align:left;
-	padding:1px 0px;
+	padding:1px 0;
 	color:#000;
 	font-weight:900;
 	letter-spacing:-.5px;
@@ -331,12 +325,11 @@ display:none
 
 #parent-fieldname-text
 {
-margin:30px 0px;
-float:left;
-text-align:justify;
+	margin:30px 0;
+	float:left;
+	text-align:justify;
 	font-size:1.6em;
 	line-height:1.6em
-
 }
 
 #parent-fieldname-text ul li
@@ -347,7 +340,7 @@ text-align:justify;
 
 #region-content
 {
-min-height:500px;
+	min-height:500px
 }
 
 #content a
@@ -372,40 +365,36 @@ min-height:500px;
 
 .collage-item
 {
-margin:30px 0px;
-float:left;
-text-align:justify;
+	margin:30px 0;
+	float:left;
+	text-align:justify;
 	font-size:1.6em;
 	line-height:1.6em
 }
+
 /*
 #collage .two-columns-largeleft .block_1,#collage .two-columns-largeleft .block_2
 {
 width:50% !important
 }*/
-
 .contenttype-news-item
 {
-margin-top: 2em;
-
+	margin-top:2em
 }
-
-
 
 .contenttype-folder
 {
-float:left;
-font-size:1.2em;
-line-height:1.2em
-
+	float:left;
+	font-size:1.2em;
+	line-height:1.2em
 }
 
 .documentActions
 {
-float:right;
+	float:right
 }
 
-#document-action-sendto, #document-action-print, #document-action-rss, #document-action-ics, #document-action-vcs
+#document-action-sendto,#document-action-print,#document-action-rss,#document-action-ics,#document-action-vcs
 {
 	background-color:#e2dac7;
 	padding:5px;
@@ -414,23 +403,22 @@ float:right;
 	border-radius:5px;
 	-khtml-border-radius:5px;
 	float:left;
-	margin:5px;
+	margin:5px
 }
 
-#document-action-sendto a, #document-action-print a, #document-action-rss a, #document-action-ics a, #document-action-vcs a
+#document-action-sendto a,#document-action-print a,#document-action-rss a,#document-action-ics a,#document-action-vcs a
 {
 	color:#000;
 	font-size:1.2em;
 	font-weight:700;
-	background: transparent !important;
+	background:transparent!important
 }
 
-#document-action-sendto a:hover, #document-action-print a:hover, #document-action-rss a:hover, #document-action-ics a:hover, #document-action-vcs a:hover
+#document-action-sendto a:hover,#document-action-print a:hover,#document-action-rss a:hover,#document-action-ics a:hover,#document-action-vcs a:hover
 {
 	color:#666;
 	text-decoration:none;
-	background: transparent !important;
-
+	background:transparent!important
 }
 
 /* */
@@ -456,8 +444,8 @@ float:right;
 	position:absolute;
 	top:0;
 	left:0;
-	z-index:-1;
-	/*-moz-border-radius:5px;
+	z-index:-1
+/*-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px*/
@@ -479,7 +467,7 @@ float:right;
 	height:300px;
 	width:332px;
 	float:left;
-	background:url(banner1_1.jpg) no-repeat center center;
+	background:url(banner1_1.jpg) no-repeat center center
 }
 
 .slides_image1_2
@@ -487,7 +475,7 @@ float:right;
 	height:300px;
 	width:296px;
 	float:left;
-	background:url(banner1_2.jpg) no-repeat center center;
+	background:url(banner1_2.jpg) no-repeat center center
 }
 
 .slides_image1_3
@@ -495,7 +483,7 @@ float:right;
 	height:300px;
 	width:332px;
 	float:left;
-	background:url(banner1_3.jpg) no-repeat center center;
+	background:url(banner1_3.jpg) no-repeat center center
 }
 
 .slides_image2
@@ -503,7 +491,7 @@ float:right;
 	height:300px;
 	width:960px;
 	float:left;
-	background:url(banner2.jpg) no-repeat center center;
+	background:url(banner2.jpg) no-repeat center center
 }
 
 .slides_image3
@@ -511,7 +499,7 @@ float:right;
 	height:300px;
 	width:960px;
 	float:left;
-	background:url(banner3.jpg) no-repeat center center;
+	background:url(banner3.jpg) no-repeat center center
 }
 
 .slides_image4
@@ -519,7 +507,7 @@ float:right;
 	height:300px;
 	width:960px;
 	float:left;
-	background:url(banner4.jpg) no-repeat center center;
+	background:url(banner4.jpg) no-repeat center center
 }
 
 .slides_image5
@@ -527,16 +515,16 @@ float:right;
 	height:300px;
 	width:960px;
 	float:left;
-	background:url(banner5.jpg) no-repeat center center;
+	background:url(banner5.jpg) no-repeat center center
 }
 
 #controller
 {
-	height:0px;
+	height:0;
 	float:right;
 	position:relative;
 	top:-25px;
-	left:-5px;
+	left:-5px
 }
 
 .jFlowControl,.jFlowPrev,.jFlowNext
@@ -550,18 +538,18 @@ h2
 {
 	font-weight:700;
 	margin:1em 0;
-	border-bottom: 1px solid #452f27;
-	font-size: 1.3em;
-	padding: 5px 0px;
+	border-bottom:1px solid #452f27;
+	font-size:1.3em;
+	padding:5px 0;
 	color:#4d4d46;
-float:left;
-width:100%
+	float:left;
+	width:100%
 }
 
-.tileBody, .tileFooter
+.tileBody,.tileFooter
 {
-float:left;
-width:100%
+	float:left;
+	width:100%
 }
 
 /*
@@ -633,19 +621,18 @@ h3 a:hover
 	text-decoration:none;
 	color:#89897c
 }*/
-
 .bfg
 {
 	background:#675733;
 	cursor:pointer;
-	font-size:0.9em;
+	font-size:.9em;
 	padding:2px;
 	height:10px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
-	color:#000;
+	color:#000
 }
 
 #portal-footer
@@ -659,7 +646,7 @@ h3 a:hover
 	width:920px;
 	border-top:4px solid #889800;
 	background:#a6ba00;
-	margin-bottom: 30px;
+	margin-bottom:30px;
 	-moz-border-radius-bottomleft:5px;
 	-webkit-border-bottom-left-radius:5px;
 	border-bottom-left-radius:5px;
@@ -667,7 +654,7 @@ h3 a:hover
 	-moz-border-radius-bottomright:5px;
 	-webkit-border-bottom-right-radius:5px;
 	border-bottom-right-radius:5px;
-	-khtml-border-bottom-right-radius:5px;
+	-khtml-border-bottom-right-radius:5px
 }
 
 #portal-footer a
@@ -702,32 +689,32 @@ h3 a:hover
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	-khtml-border-radius:5px;
+	-khtml-border-radius:5px
 }
 
 #descargas
 {
-	background:url(descargas.png) 10px 0px no-repeat
+	background:url(descargas.png) 10px 0 no-repeat
 }
 
 #enciclopedia
 {
-	background:url(enciclopedia.png) 10px 0px no-repeat
+	background:url(enciclopedia.png) 10px 0 no-repeat
 }
 
 #proyectos
 {
-	background:url(proyectos.png) 10px 0px no-repeat
+	background:url(proyectos.png) 10px 0 no-repeat
 }
 
 #acerca
 {
-	background:url(acerca.png) 10px 0px no-repeat
+	background:url(acerca.png) 10px 0 no-repeat
 }
 
 #registro
 {
-	background:url(registro.png) 10px 0px no-repeat
+	background:url(registro.png) 10px 0 no-repeat
 }
 
 .chicklets
@@ -745,24 +732,23 @@ h3 a:hover
 	width:60%;
 	line-height:1em;
 	padding:5px;
-	height:50px;
-	}
+	height:50px
+}
 
 .chick_content
 {
-	font-size:0.8em;
+	font-size:.8em;
 	line-height:1.4em;
 	text-align:left;
 	padding:10px;
-		width:80%;
-		height:120px;
-
+	width:80%;
+	height:120px
 }
 
 .chick_h1 a
 {
-	color:#222 !important;
-	background: transparent  !important;
+	color:#222!important;
+	background:transparent!important
 }
 
 .chick_h1 a:hover
@@ -779,7 +765,7 @@ h3 a:hover
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
-	margin:15px 0px;
+	margin:15px 0
 }
 
 .cfg
@@ -790,8 +776,7 @@ h3 a:hover
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
-	margin:15px 0px;
-
+	margin:15px 0
 }
 
 .afg
@@ -801,97 +786,89 @@ h3 a:hover
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	-khtml-border-radius:5px;
+	-khtml-border-radius:5px
 }
 
 .premier a
 {
-	padding-left:100px !important;
-	font-size:1.3em ;
-	color:#25691c !important;
+	padding-left:100px!important;
+	font-size:1.3em;
+	color:#25691c!important;
 	font-weight:900;
 	line-height:1.3em;
 	text-shadow:1px 1px 2px #999;
-	background-color: transparent !important;
-
+	background-color:transparent!important
 }
 
 .premier a:hover
 {
-	color:#38a02a !important;
+	color:#38a02a!important;
 	text-decoration:none;
-	background-color: transparent !important;
-
+	background-color:transparent!important
 }
 
 .premier_big a
 {
-	padding-left:100px !important;
-	font-size:0.8em;
-	color:#25691c !important;
+	padding-left:100px!important;
+	font-size:.8em;
+	color:#25691c!important;
 	font-weight:900;
 	line-height:1.8em;
 	text-shadow:1px 1px 2px #999;
-	background-color: transparent !important;
-
-
+	background-color:transparent!important
 }
 
 .premier_big a:hover
 {
-	color:#38a02a  !important;
+	color:#38a02a!important;
 	text-decoration:none
 }
+
 .premier_big2
 {
-	padding-left:100px !important;
-
+	padding-left:100px!important
 }
 
 .premier_big2 a
 {
-	padding: 0px !important;
-	font-size:0.7em;
-	color:#756540 !important;
+	padding:0!important;
+	font-size:.7em;
+	color:#756540!important;
 	font-weight:900;
 	line-height:1.8em;
 	text-shadow:1px 1px 2px #999;
-	background-color: transparent !important;
-
-
+	background-color:transparent!important
 }
 
 .premier_big2 a:hover
 {
-	color:#ab9b75  !important;
+	color:#ab9b75!important;
 	text-decoration:none
 }
 
 .premier2 a
 {
-	padding-left:100px !important;
-	font-size:1.3em ;
-	color:#756540 !important;
+	padding-left:100px!important;
+	font-size:1.3em;
+	color:#756540!important;
 	font-weight:900;
 	line-height:1.2em;
 	text-shadow:1px 1px 2px #999;
-	background-color: transparent !important;
-
+	background-color:transparent!important
 }
 
 .premier2 a:hover
 {
-	color:#ab9b75 !important;
+	color:#ab9b75!important;
 	text-decoration:none;
-	background-color: transparent !important;
-
+	background-color:transparent!important
 }
 
 .premier_sub
 {
 	padding-left:100px;
-	text-shadow:1px 1px 0px #999;
-	font-size:0.7em;
+	text-shadow:1px 1px 0 #999;
+	font-size:.7em;
 	line-height:1.2em;
 	color:#555
 }
@@ -901,15 +878,14 @@ div.text_index
 	width:510px;
 	float:left;
 	margin:15px;
-	margin-left:0px;
-	margin-bottom: 0px;
+	margin-left:0;
+	margin-bottom:0;
 	padding-top:210px;
 	font-size:1em;
 	line-height:1.3em;
 	text-indent:30px;
 	text-align:justify;
-	background:url(canaima_fondo2.png) no-repeat;
-
+	background:url(canaima_fondo2.png) no-repeat
 }
 
 div.text_index p a
@@ -974,21 +950,21 @@ div.text_index blockquote
 	background:#f6f6e8;
 	line-height:1.5em;
 	border:0;
-	padding:25px 0px;
-	margin:0px;
+	padding:25px 0;
+	margin:0;
 	text-align:left;
 	min-height:500px
 }
 
 #portal-column-two
 {
-display:none
+	display:none
 }
 
 #portal-column-one
 {
-width:960px;
-float:left;
+	width:960px;
+	float:left
 }
 
 #content2
@@ -1011,9 +987,9 @@ float:left;
 	float:left;
 	font-size:1.2em;
 	line-height:1.2em;
-	padding:0px 15px;
-	padding-right:0px;
-	width:390px;
+	padding:0 15px;
+	padding-right:0;
+	width:390px
 }
 
 #clear-space-before-wrapper-table,#clear-space-before-footer
@@ -1024,37 +1000,35 @@ float:left;
 
 #content
 {
-font-size:1em;
-
-
+	font-size:1em
 }
 
 #content dl dt
 {
-margin:10px 0px;
-margin-bottom:0px;
-float:left;
-width:100%;
+	margin:10px 0;
+	margin-bottom:0;
+	float:left;
+	width:100%
 }
 
 #content dl dd
 {
-margin:0px;
-float:left;
-width:100%;
+	margin:0;
+	float:left;
+	width:100%
 }
 
 #content_index
 {
 	width:930px;
-	padding:0px;
+	padding:0;
 	color:#55554e;
 	font-size:1.2em;
 	line-height:1.2em;
 	float:left;
 	position:relative;
 	top:-40px;
-	left:opx;
+	left:opx
 }
 
 dl.collapsible,#parent-fieldname-text,.documentEditable
@@ -1067,7 +1041,7 @@ dl.collapsible,#parent-fieldname-text,.documentEditable
 
 .documentContent
 {
-float:left
+	float:left
 }
 
 #portal-breadcrumbs
@@ -1135,22 +1109,20 @@ float:left
 
 h1.documentFirstHeading
 {
-	margin:5px 0px;
-	line-height: 1.2em;
+	margin:5px 0;
+	line-height:1.2em
 }
-
 
 .managePortletsFallback
 {
-display:none
+	display:none
 }
 
 #history
 {
-float:left;
-margin:10px;
-width:910px;
-
+	float:left;
+	margin:10px;
+	width:910px
 }
 
 dl.portalMessage,.warning
@@ -1167,7 +1139,7 @@ dl.portalMessage,.warning
 	border-radius:5px;
 	-khtml-border-radius:5px;
 	vertical-align:middle;
-	margin:10px 0px;
+	margin:10px 0;
 	width:920px
 }
 
@@ -1185,7 +1157,7 @@ p.portalMessage
 	-khtml-border-radius:5px;
 	vertical-align:middle;
 	margin:10px auto;
-	border:none !important;
+	border:none!important
 }
 
 .warning a
@@ -1207,40 +1179,39 @@ p.portalMessage
 
 #region-content
 {
-width:930px;
-padding:0px 15px;
-
+	width:930px;
+	padding:0 15px
 }
 
-#livesearchLegend, div.LSDescr, span.discreet
+#livesearchLegend,div.LSDescr,span.discreet
 {
-display:none;
+	display:none
 }
 
 p.discreet
 {
-float:left
+	float:left
 }
 
 a.discreet
 {
-background:none !important;
+	background:none!important
 }
 
 .LSResult
 {
-z-index:10000;
-height:0px;
-position:relative;
-	left:0px;
-	top:-22px;
+	z-index:10000;
+	height:0;
+	position:relative;
+	left:0;
+	top:-22px
 }
 
 .livesearchContainer
 {
 	text-align:left;
 	font-size:12px;
-	border:none !important;
+	border:none!important;
 	background:#d5c191;
 	padding:5px 0;
 	-moz-border-radius-bottomleft:5px;
@@ -1252,13 +1223,14 @@ position:relative;
 	border-bottom-right-radius:5px;
 	-khtml-border-bottom-right-radius:5px;
 	position:relative;
-	left:0px;
-	top:0px;
+	left:0;
+	top:0;
+	width:300px !important
 }
 
 .livesearchContainer img
 {
-display:none
+	display:none
 }
 
 .livesearchContainer ul
@@ -1307,74 +1279,72 @@ display:none
 
 .state-closed,.state-published,.state-private,.state-missing-value,.state-unapproved,.state-memberposting,.state-hidden,.state-final,.state-release-candidate,.state-pre-release
 {
-background:transparent !important;
-margin:0px !important;
-color:#000 !important;
-font-size:16px !important;
-padding:5px 0px;
+	background:transparent!important;
+	margin:0!important;
+	color:#000!important;
+	font-size:16px!important;
+	padding:5px 0
 }
 
 a.state-published:hover,a.state-private:hover,a.state-missing-value:hover,a.state-unapproved:hover,a.state-memberposting:hover,a.state-hidden:hover,a.state-final:hover,a.state-release-candidate:hover,a.state-closed:hover,a.state-pre-release:hover
 {
-color:#888 !important;
+	color:#888!important
 }
 
 a.state-published img,a.state-closed img,a.state-private img,a.state-missing-value img,a.state-unapproved img,a.state-memberposting img,.state-hidden img,.state-final img,.state-release-candidate img
 {
-vertical-align:middle
+	vertical-align:middle
 }
 
 .state-unapproved
 {
-color:#fa8072 !important;
+	color:#fa8072!important
 }
 
 .state-private
 {
-color: red !important;
+	color:red!important
 }
 
 tr.odd
 {
-background-color:#fff;
+	background-color:#fff
 }
 
 td
 {
-padding:2px 0px;
+	padding:2px 0
 }
 
-span.contenttype-file img, span.contenttype-plone-site img, span.contenttype-large-plone-folder img, span.contenttype-plonesoftwarecenter img, span.contenttype-news-item img, span.contenttype-document img, span.contenttype-pscrelease img, span.contenttype-link img, span.contenttype-pscproject img
+span.contenttype-file img,span.contenttype-plone-site img,span.contenttype-large-plone-folder img,span.contenttype-plonesoftwarecenter img,span.contenttype-news-item img,span.contenttype-document img,span.contenttype-pscrelease img,span.contenttype-link img,span.contenttype-pscproject img
 {
-vertical-align:middle;
+	vertical-align:middle
 }
 
-#portletmanager-plone-rightcolumn_, #portletmanager-plone-leftcolumn_
+#portletmanager-plone-rightcolumn_,#portletmanager-plone-leftcolumn_
 {
-position:relative;
-top: 200px;
+	position:relative;
+	top:200px
 }
 
 .collage-header a,.collage-header a.action,.collage-header a.layout,.collage-header a.create
 {
-background:transparent !important;
-padding:3px !important;
-float:left;
+	background:transparent!important;
+	padding:3px!important;
+	float:left
 }
 
 .collage-header span
 {
-margin:2px;
+	margin:2px
 }
 
-.copy-object-icon, .paste-object-icon, .split-object.icon, span.contenttype-event
+.copy-object-icon,.paste-object-icon,.split-object.icon,span.contenttype-event
 {
-
-vertical-align:middle;
-
+	vertical-align:middle
 }
 
-.standalone, .documentEditable * .standalone
+.standalone,.documentEditable * .standalone
 {
 	color:#000;
 	font-size:1em;
@@ -1391,11 +1361,10 @@ vertical-align:middle;
 	vertical-align:middle;
 	margin:5px;
 	border:none;
-text-transform: uppercase;
-
+	text-transform:uppercase
 }
 
-.destructive, .documentEditable * .destructive
+.destructive,.documentEditable * .destructive
 {
 	color:#000;
 	font-size:1em;
@@ -1412,11 +1381,10 @@ text-transform: uppercase;
 	vertical-align:middle;
 	margin:5px;
 	border:none;
-text-transform: uppercase;
-
+	text-transform:uppercase
 }
 
-.context, .formControls .actionButtons .button, .documentEditable * .context
+.context,.formControls .actionButtons .button,.documentEditable * .context
 {
 	color:#000;
 	font-weight:700;
@@ -1433,114 +1401,113 @@ text-transform: uppercase;
 	vertical-align:middle;
 	margin:5px;
 	border:none;
-text-transform: uppercase;
-}
-.formControls
-{
-float:left !important
+	text-transform:uppercase
 }
 
- #archetypes-fieldname-title input
- {
- padding: 2px 0px;
- }
+.formControls
+{
+	float:left!important
+}
+
+#archetypes-fieldname-title input
+{
+	padding:2px 0
+}
 
 .kssattr-atfieldname-text
 {
-
-width:930px;
+	width:930px
 }
 
 .link-parent
 {
-float:right;
-width_:200px;
-margin:10px 0px;
-margin-left_:730px
+	float:right;
+	width_:200px;
+	margin:10px 0;
+	margin-left_:730px
 }
 
-span.contenttype-document img, span.contenttype-topic img
+span.contenttype-document img,span.contenttype-topic img
 {
-vertical-align:middle;
+	vertical-align:middle
 }
 
 li.formTab a
 {
-padding: 5px !important;
-font-size:1.2em !important;
-background-color: #cde2a7 !important;
-margin:5px !important;
+	padding:5px!important;
+	font-size:1.2em!important;
+	background-color:#cde2a7!important;
+	margin:5px!important
 }
 
 li.formTab a:hover
 {
-background-color: white !important;
+	background-color:#FFF!important
 }
 
 ul.formTabs
 {
-margin:15px 0px !important;
-float:left;
-width:100%
+	margin:15px 0!important;
+	float:left;
+	width:100%
 }
 
 th.nosort
 {
-padding:5px 0px;
-
+	padding:5px 0
 }
 
 .field
 {
-margin:20px 0px !important;
+	margin:20px 0!important
 }
 
 .fieldRequired
-{color:red}
+{
+	color:red
+}
 
 .formPanel
 {
-padding:0px !important;
-float:left;
-width:930px
+	padding:0!important;
+	float:left;
+	width:930px
 }
 
 body.kupu
 {
-background-color:#fff;
-font-size:1.5em
+	background-color:#fff;
+	font-size:1.5em
 }
 
-iframe.kupu-editor-iframe, .kupu-tb
+iframe.kupu-editor-iframe,.kupu-tb
 {
-width:924px !important;
-border: none !important;
+	width:924px!important;
+	border:none!important
 }
-
 
 select
 {
-background: #fff url("input_background.gif") 0px 0px repeat-x ;
-font-size:1.2em;
-border:1px #444 solid;
+	background:#fff url(input_background.gif) 0 0 repeat-x;
+	font-size:1.2em;
+	border:1px #444 solid
 }
 
 select.kupu-tb-styles
 {
-font-size:0.8em;
+	font-size:.8em
 }
 
 ul#contentActionMenus li a img
 {
-
-display:none;
+	display:none
 }
 
 div.listingBar
 {
-margin:20px 0px;
-float:left;
-width:100%
+	margin:20px 0;
+	float:left;
+	width:100%
 }
 
 div.listingBar a
@@ -1556,81 +1523,78 @@ div.listingBar a
 	border-radius:5px;
 	-khtml-border-radius:5px;
 	vertical-align:middle;
-	margin:5px;
+	margin:5px
 }
 
 .listingNext
 {
-float:right;
-	text-align:right;
-
+	float:right;
+	text-align:right
 }
 
 .listingPrevious
 {
-float:left;
-	text-align:left;
+	float:left;
+	text-align:left
 }
 
 dt.collapsibleHeader
 {
-
-width:870px !important;
+	width:870px!important
 }
 
 dd.portletItem ul.configlets li
 {
-float:left;
+	float:left
 }
 
 ul.configlets li a
 {
-margin:5px;
-font-size:16px;
-color:#444;
+	margin:5px;
+	font-size:16px;
+	color:#444
 }
 
 ul.configlets li label
 {
-width:800px !important;
+	width:800px!important
 }
 
 ul.configletDetails li
 {
-width:800px !important;
+	width:800px!important
 }
-
 
 ul.configletDetails li a
 {
-font-size:0.9em
+	font-size:.9em
 }
 
-ul.configletDetails li label img, ul.configletDetails li a img
+ul.configletDetails li label img,ul.configletDetails li a img
 {
-width:16px;
-height:16px;
-vertical-align:middle;
+	width:16px;
+	height:16px;
+	vertical-align:middle
 }
 
 dd.portletItem
 {
-float:left;
-margin:2px 0px;
+	float:left;
+	margin:2px 0
 }
 
 dl.portletThirdWidth
 {
-width:930px !important;
+	width:930px!important
 }
 
 table.listing
 {
-width:930px;
-margin:15px;
+	width:930px;
+	margin:15px
 }
 
-dt.portletHeader, dt.portletFooter
+dt.portletHeader,dt.portletFooter
 {
 	font-size:1.2em;
 	color:#000;
@@ -1643,28 +1607,27 @@ dt.portletHeader, dt.portletFooter
 	border-radius:5px;
 	-khtml-border-radius:5px;
 	vertical-align:middle;
-	margin:10px 5px;
+	margin:10px 5px
 }
 
-dt.portletHeader a, dt.portletFooter a
+dt.portletHeader a,dt.portletFooter a
 {
 	font-size:1.2em;
 	color:#444;
 	font-weight:500;
-	background-color: transparent !important;
+	background-color:transparent!important
 }
 
-dt.portletHeader a:hover, dt.portletFooter a:hover
+dt.portletHeader a:hover,dt.portletFooter a:hover
 {
 	color:#888;
-	background-color: transparent !important;
-
+	background-color:transparent!important
 }
 
 div.eventDetails
 {
-float:left;
-width:930px;
+	float:left;
+	width:930px;
 	font-size:1.2em;
 	color:#000;
 	line-height:1.2em;
@@ -1675,15 +1638,15 @@ width:930px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
 	vertical-align:middle;
-	margin:15px 5px;
+	margin:15px 5px
 }
 
 div.eventDetails th
 {
-width:20%
-}
-div.eventDetails td
-{
-width:75%
+	width:20%
 }
 
+div.eventDetails td
+{
+	width:75%
+}

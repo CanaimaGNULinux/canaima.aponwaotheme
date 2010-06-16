@@ -22,6 +22,10 @@
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 
+    id="cssQuery.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="False" expression=""  inline="False"/>
+ <javascript 
     id="jquery-integration.js"
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
@@ -50,13 +54,21 @@
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 
+    id="fullscreenmode.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="False" expression=""  inline="False"/>
+ <javascript 
     id="select_all.js"
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 
-    id="dragdropreoder.js"
+    id="dragdropreorder.js"
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="mark_special_links.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="False" expression=""  inline="False"/>
  <javascript 
     id="collapsiblesections.js"
     cacheable="True" compression="safe-encode" cookable="True"
@@ -94,9 +106,113 @@
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
  <javascript 
+    id="dropdown.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="table_sorter.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="calendar_formfield.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="calendarpopup.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="False" expression=""  inline="False"/>
+ <javascript 
+    id="formUnload.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="formsubmithelpers.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="unlockOnFormUnload.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="sarissa.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++MochiKit.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++prototype.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="False" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++effects.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="False" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++cssQuery-compat.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="False" expression=""  inline="False"/>
+ <javascript 
     id="++resource++base2-dom-fp.js"
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++kukit.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python: not here.restrictedTraverse('@@plone_portal_state').anonymous() and here.restrictedTraverse('@@kss_devel_mode').isoff()"  inline="False"/>
+ <javascript 
+    id="++resource++kukit-devel.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python: not here.restrictedTraverse('@@plone_portal_state').anonymous() and here.restrictedTraverse('@@kss_devel_mode').ison()"  inline="False"/>
+ <javascript 
+    id="kupunoi18n.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="sarissa_ieemu_xpath.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupuhelpers.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupueditor.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupubasetools.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupuloggers.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupucontentfilters.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupuploneeditor.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupuploneui.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupusourceedit.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupudrawers.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
+ <javascript 
+    id="kupuploneinit.js"
+    cacheable="True" compression="safe-encode" cookable="True"
+    enabled="True" expression="python:portal.kupu_library_tool.isKupuEnabled(REQUEST=request)"  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/slimbox2.js"
     cacheable="True" compression="safe-encode" cookable="True"
@@ -117,6 +233,4 @@
     id="++resource++canaima.aponwaotheme.javascripts/scripts.js"
     cacheable="True" compression="safe-encode" cookable="True"
     enabled="True" expression=""  inline="False"/>
-
-
 </object>

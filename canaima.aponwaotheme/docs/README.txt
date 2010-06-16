@@ -10,8 +10,9 @@ en el Producto para Plone "quintagroup.theme.techlight" [3], en estilo
 y sistema de archivos respectivamente.
 
 
-[1] Luis A. Martínez F. (HuntingBears)
-    Leonardo J. Caballero G. (macagua)
+[1] Luis Martínez (HuntingBears)
+    Leonardo Caballero (macagua)
+    Xavier Araque (Rendergraf)
     
 [2] Tema bajo licencia GPL
     Desarrollado por Paul Kadysz, Dariusz Siedlecki
