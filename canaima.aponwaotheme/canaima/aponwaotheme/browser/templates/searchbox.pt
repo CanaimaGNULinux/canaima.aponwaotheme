@@ -1,10 +1,7 @@
 <div id="portal-searchbox" i18n:domain="plone">
 
-<div id="img_header">
-<a href="/">
-  <img src="logo.png">
-  </a>
-</div>
+<a href="/" id="img_header"></a>
+
     <form id="searchbox"
           action="search"
           tal:attributes="action string:${view/navigation_root_url}/search">
@@ -18,10 +15,10 @@
         <input name="SearchableText"
                type="text"
                size="18"
-               value="Búsqueda nVivo"
-               title="Búsqueda nVivo"
-               onfocus="this.value=(this.value=='Búsqueda nVivo') ? '' : this.value;"
-               onblur="this.value=(this.value=='') ? 'Búsqueda nVivo' : this.value;"
+               value="Buscar en el Sitio"
+               title="Buscar en el Sitio"
+               onfocus="this.value=(this.value=='Buscar en el Sitio') ? '' : this.value;"
+               onblur="this.value=(this.value=='') ? 'Buscar en el Sitio' : this.value;"
                accesskey="4"
                i18n:attributes="title title_search_site;"
                tal:attributes="value request/SearchableText|nothing;
@@ -79,19 +76,19 @@
 </div>
 
 <div>
-<div class="slides_image2"></div>
+<a href="descargas/canaima-dvdnvivo/releases/2.1" class="slides_image2"></a>
 </div>
 
 <div>
-<div class="slides_image3"></div>
+<a href="acerca-de" class="slides_image3"></a>
 </div>
 
 <div>
-<div class="slides_image4"></div>
+<a href="acerca-de" class="slides_image4"></a>
 </div>
 
 <div>
-<div class="slides_image5"></div>
+<a href="acerca-de" class="slides_image5"></a>
 </div>
 
 </div>
