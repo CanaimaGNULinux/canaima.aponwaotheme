@@ -1,38 +1,22 @@
 <div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone">
-<div id="footer">
-<br>
-<b class="f">
-  <b class="f1"><b></b></b>
+<div id="pie_resaltado">
 
-  <b class="f2"><b></b></b>
-  <b class="f3"></b>
-  <b class="f4"></b>
-
-  <b class="f5"></b></b>
-
-  <div class="ffg">
-El Portal Canaima GNU/Linux está potenciado por <a href="http://plone.org/">Plone</a>, <a href="http://jquery.com/">jQuery</a> y <a href="http://canaima.softwarelibre.gob.ve/">Linux</a>.
-
-  </div>
-
-  <b class="f">
-  <b class="f5"></b>
-  <b class="f4"></b>
-  <b class="f3"></b>
-  <b class="f2"><b></b></b>
-  <b class="f1"><b></b></b></b>
-<br>
+<a href="http://twitter.com/CanaimaLinux">Twitter</a>
+&nbsp;&#8226;&nbsp;
+<a href="http://www.facebook.com/group.php?gid=94115977137">Facebook</a>
+&nbsp;&#8226;&nbsp;
+<a href="actualidad/noticias/aggregator/RSS">RSS Noticias</a>
+&nbsp;&#8226;&nbsp;
+<a href="actualidad/eventos/eventos-pasados/RSS">RSS Eventos</a>
+&nbsp;&#8226;&nbsp;
+<a href="descargas/search_rss?portal_type=PSCRelease&sort_on=Date&sort_order=reverse&review_state=alpha&review_state=beta&review_state=release-candidate&review_state=final">RSS Descargas</a>
 
 </div>
 
-
-<p>
-El Tema Canaima Aponwao es un tema desarrollado por el Equipo Canaima GNU/Linux
-</p>
-
-<p>
-<br>
-</p>
-
+El Portal Canaima GNU/Linux está potenciado por <a href="http://plone.org/">Plone</a>, <a href="http://jquery.com/">jQuery</a> y <a href="http://canaima.softwarelibre.gob.ve/">Linux</a>.
+<br />
+Canaima Aponwao para Plone es un tema desarrollado por el equipo de desarrollo Canaima GNU/Linux.
+<br />
+Puedes contactarnos a través de  <a href="mailto:webmaster@canaima.softwarelibre.gob.ve">webmaster@canaima.softwarelibre.gob.ve</a>.
 
 </div>

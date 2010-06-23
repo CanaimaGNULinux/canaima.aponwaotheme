@@ -130,6 +130,8 @@ a
 	text-decoration:none
 }
 
+
+
 #menu
 {
 	background:#a6ba00;
@@ -227,7 +229,7 @@ a
 #searchGadget
 {
 	width:304px;
-	margin:3px 0;
+	margin:5px 0;
 	margin-top:10px;
 	color:#e2dac7;
 	font-weight:700;
@@ -240,6 +242,46 @@ a
 	border-radius:5px;
 	-khtml-border-radius:5px;
 	border:none!important
+}
+
+#content a
+{
+	-khtml-border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#f0d9aa;
+	border:none;
+	border-radius:5px;
+	color:#444;
+	padding:1px 3px;
+	text-decoration:none;
+	vertical-align:middle
+}
+
+#content a:hover
+{
+	background:#d3b084;
+	text-decoration:none
+}
+
+#content
+{
+	font-size:1em
+}
+
+#content dl dt
+{
+	margin:10px 0;
+	margin-bottom:0;
+	float:left;
+	width:100%
+}
+
+#content dl dd
+{
+	margin:0;
+	float:left;
+	width:100%
 }
 
 input,textarea
@@ -285,6 +327,18 @@ h1 a:hover
 {
 	text-decoration:none;
 	color:#000
+}
+
+h2
+{
+	font-weight:700;
+	margin:1em 0;
+	border-bottom:1px solid #452f27;
+	font-size:1.3em;
+	padding:5px 0;
+	color:#4d4d46;
+	float:left;
+	width:100%
 }
 
 .documentDescription,.documentByLine,#link-presentation
@@ -340,13 +394,12 @@ h1 a:hover
 {
 	min-height:500px
 }
-
-#content a
+#clock a
 {
 	-khtml-border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
-	background:#f0d9aa;
+	background:#d9c692;
 	border:none;
 	border-radius:5px;
 	color:#444;
@@ -355,7 +408,7 @@ h1 a:hover
 	vertical-align:middle
 }
 
-#content a:hover
+#clock a:hover
 {
 	background:#d3b084;
 	text-decoration:none
@@ -368,18 +421,6 @@ h1 a:hover
 	text-align:justify;
 	font-size:1.6em;
 	line-height:1.6em
-}
-
-.contenttype-news-item
-{
-	margin-top:2em
-}
-
-.contenttype-folder
-{
-	float:left;
-	font-size:1.2em;
-	line-height:1.2em
 }
 
 .documentActions
@@ -414,6 +455,8 @@ h1 a:hover
 	background:transparent!important
 }
 
+/* Slider jFlow */
+
 #slider
 {
 	width:960px;
@@ -442,12 +485,6 @@ h1 a:hover
 .slides
 {
 	position:relative
-}
-
-.list_header
-{
-	list-style:url(li.gif) inside;
-	padding:0 10px
 }
 
 .slides_image1_1
@@ -517,21 +554,17 @@ h1 a:hover
 
 .jFlowControl,.jFlowPrev,.jFlowNext
 {
-	width:20px;
+	background:#675733;
+	cursor:pointer;
+	font-size:.9em;
+	height:10px;
+	width:10px;
 	float:left;
-	margin:2px
-}
-
-h2
-{
-	font-weight:700;
-	margin:1em 0;
-	border-bottom:1px solid #452f27;
-	font-size:1.3em;
-	padding:5px 0;
-	color:#4d4d46;
-	float:left;
-	width:100%
+	margin:4px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
 }
 
 .tileBody,.tileFooter
@@ -540,107 +573,146 @@ h2
 	width:100%
 }
 
-.bfg
-{
-	background:#675733;
-	cursor:pointer;
-	font-size:.9em;
-	padding:2px;
-	height:10px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-khtml-border-radius:5px;
-	color:#000
-}
+/* Estilos de la página frontal 'canaima-gnu-linux' */
 
-#portal-footer
+.info_index
 {
-	font-size:1.4em;
-	color:#d6e26e;
-	padding:0 20px;
-	clear:both;
-	line-height:20px;
+	width:510px;
 	float:left;
-	width:920px;
-	border-top:4px solid #889800;
-	background:#a6ba00;
-	margin-bottom:30px;
-	-moz-border-radius-bottomleft:5px;
-	-webkit-border-bottom-left-radius:5px;
-	border-bottom-left-radius:5px;
-	-khtml-border-bottom-left-radius:5px;
-	-moz-border-radius-bottomright:5px;
-	-webkit-border-bottom-right-radius:5px;
-	border-bottom-right-radius:5px;
-	-khtml-border-bottom-right-radius:5px
+	margin:15px;
+	margin-left:0;
+	margin-bottom:0;
+	padding-top:230px;
+	font-size:1em;
+	line-height:1.3em;
+	text-indent:30px;
+	text-align:justify;
+	background:url(canaima_arte.png) no-repeat
 }
 
-#portal-footer a
+.barra_lateral
 {
-	font-weight:900;
-	color:#889800
-}
-
-#powered
-{
-	color:#55554e;
-	font-size:1.3em;
-	padding:12px 20px;
-	background:#111;
-	line-height:18px;
-	height:36px;
+	position:relative;
+	top:-70px;
+	left:0;
 	float:left;
-	width:920px
+	font-size:1.2em;
+	line-height:1.2em;
+	padding:0 15px;
+	padding-right:0;
+	width:390px
 }
 
-#powered a
+.enciclopedia,.proyectos,.descargas,.acerca,.registro
 {
-	color:#89897c
-}
-
-.ffg
-{
-	background:#d6e26e;
-	text-align:center;
-	color:#A6BA00;
 	padding:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	-khtml-border-radius:5px
+	-khtml-border-radius:5px;
+	margin:15px 0
 }
 
-#descargas
+.descargas
 {
-	background:url(descargas.png) 10px 0 no-repeat
+	background:#abe19f url('descargas.png') 10px 5px no-repeat
 }
 
-#enciclopedia
+.enciclopedia
 {
-	background:url(enciclopedia.png) 10px 0 no-repeat
+	background:#f5eedf url('enciclopedia.png') 10px 5px no-repeat
 }
 
-#proyectos
+.proyectos
 {
-	background:url(proyectos.png) 10px 0 no-repeat
+	background:#f5eedf url('proyectos.png') 10px 5px no-repeat
 }
 
-#acerca
+.acerca
 {
-	background:url(acerca.png) 10px 0 no-repeat
+	background:#f5eedf url('acerca.png') 10px 5px no-repeat
 }
 
-#registro
+.registro
 {
-	background:url(registro.png) 10px 0 no-repeat
+	background:#f5eedf url('registro.png') 10px 5px no-repeat
 }
 
-.chicklets
+.enc_barra_verde,.enc_barra_verde_sub,.enc_barra_marron,.enc_barra_marron_sub,.enc_barra_texto
 {
-	width:300px;
-	margin:5px;
-	float:left
+	padding-left:90px;
+}
+
+.enc_barra_verde a
+{
+	font-size:1.3em;
+	color:#25691c!important;
+	font-weight:900;
+	line-height:1.2em;
+	background-color:transparent!important;
+	padding:0!important
+}
+
+.enc_barra_verde a:hover
+{
+	color:#38a02a!important;
+	text-decoration:none;
+	background-color:transparent!important
+}
+
+.enc_barra_verde_sub a
+{
+	font-size:.8em;
+	color:#25691c!important;
+	font-weight:900;
+	line-height:1.8em;
+	background-color:transparent!important;
+	padding:0!important
+}
+
+.enc_barra_verde_sub a:hover
+{
+	color:#38a02a!important;
+	text-decoration:none
+}
+
+.enc_barra_marron a
+{
+	font-size:1.3em;
+	color:#756540!important;
+	font-weight:900;
+	line-height:1.2em;
+	background-color:transparent!important;
+	padding:0!important
+}
+
+.enc_barra_marron a:hover
+{
+	color:#ab9b75!important;
+	text-decoration:none
+}
+
+.enc_barra_marron_sub a
+{
+	font-size:.7em;
+	color:#756540!important;
+	font-weight:900;
+	line-height:1.8em;
+	background-color:transparent!important;
+	padding:0!important
+}
+
+.enc_barra_marron_sub a:hover
+{
+	color:#ab9b75!important;
+	text-decoration:none
+}
+
+.enc_barra_texto
+{
+	font-size:.7em;
+	line-height:1.2em;
+	color:#555
 }
 
 .chick_h1
@@ -677,183 +749,44 @@ h2
 	text-decoration:none
 }
 
-.efg
+.instituciones,.listas,.canaima_educativo
 {
-	background:#abe19f;
 	padding:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	-khtml-border-radius:5px;
-	margin:15px 0
+	width:290px;
+	margin:5px;
+	float:left
 }
 
-.cfg
+.instituciones
 {
-	background:#f5eedf;
-	padding:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-khtml-border-radius:5px;
-	margin:15px 0
+background:#fff url('instituciones.png') 180px 10px no-repeat
 }
 
-.afg
+.listas
 {
-	background:#fff;
-	padding:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-khtml-border-radius:5px
+background:#fff url('listas.png') 180px 10px no-repeat
 }
 
-.premier a
+.canaima_educativo
 {
-	padding-left:100px!important;
-	font-size:1.3em;
-	color:#25691c!important;
-	font-weight:900;
-	line-height:1.3em;
-	text-shadow_:1px 1px 2px #999;
-	background-color:transparent!important
+background:#fff url('canaimaedu.png') 180px 10px no-repeat
 }
 
-.premier a:hover
+#contenido_inferior
 {
-	color:#38a02a!important;
-	text-decoration:none;
-	background-color:transparent!important
-}
-
-.premier_big a
-{
-	padding-left:100px!important;
-	font-size:.8em;
-	color:#25691c!important;
-	font-weight:900;
-	line-height:1.8em;
-	text-shadow_:1px 1px 2px #999;
-	background-color:transparent!important
-}
-
-.premier_big a:hover
-{
-	color:#38a02a!important;
-	text-decoration:none
-}
-
-.premier_big2
-{
-	padding-left:100px!important
-}
-
-.premier_big2 a
-{
-	padding:0!important;
-	font-size:.7em;
-	color:#756540!important;
-	font-weight:900;
-	line-height:1.8em;
-	text-shadow_:1px 1px 2px #999;
-	background-color:transparent!important
-}
-
-.premier_big2 a:hover
-{
-	color:#ab9b75!important;
-	text-decoration:none
-}
-
-.premier2 a
-{
-	padding-left:100px!important;
-	font-size:1.3em;
-	color:#756540!important;
-	font-weight:900;
+	width:930px;
+	padding:0;
+	color:#55554e;
+	font-size:1.2em;
 	line-height:1.2em;
-	text-shadow_:1px 1px 2px #999;
-	background-color:transparent!important
-}
-
-.premier2 a:hover
-{
-	color:#ab9b75!important;
-	text-decoration:none;
-	background-color:transparent!important
-}
-
-.premier_sub
-{
-	padding-left:100px;
-	text-shadow_:1px 1px 0 #999;
-	font-size:.7em;
-	line-height:1.2em;
-	color:#555
-}
-
-div.text_index
-{
-	width:510px;
 	float:left;
-	margin:15px;
-	margin-left:0;
-	margin-bottom:0;
-	padding-top:210px;
-	font-size:1em;
-	line-height:1.3em;
-	text-indent:30px;
-	text-align:justify;
-	background:url(canaima_fondo2.png) no-repeat
-}
-
-div.text_index p a
-{
-	color:#889800;
-	text-decoration:none;
-	font-weight:400;
-	background-color:#eee
-}
-
-div.text_index p a:hover
-{
-	border-bottom-width:1px;
-	border-bottom-style:solid;
-	border-bottom-color:#889800;
-	background-color:#eee
-}
-
-div.text_index ul,div.text_index ol
-{
-	margin-bottom:1em;
-	margin-left:2em;
-	font-size:1.175em;
-	line-height:29px;
-	background:transparent url(img/lists_bg.png);
-	color:#444
-}
-
-div.text_index ul li
-{
-	list-style:url(li.gif) inside;
-	padding:0 10px
-}
-
-div.text_index ol li
-{
-	list-style:decimal inside;
-	padding-left:10px
-}
-
-div.text_index blockquote
-{
-	color:#89897c;
-	font-style:italic;
-	background:url(blockquote.gif) 30px 0 no-repeat;
-	padding-left:60px;
-	margin-bottom:1em;
-	min-height:25px
+	position:relative;
+	top:-20px;
+	left:0px
 }
 
 #portal-column-content
@@ -887,68 +820,10 @@ div.text_index blockquote
 	float:left
 }
 
-#content2
-{
-	width:505px;
-	padding:16px;
-	text-align:justify;
-	color:#55554e;
-	font-size:1.2em;
-	line-height:1.2em;
-	float:left;
-	display:inline
-}
-
-#sidebar3
-{
-	position:relative;
-	top:-70px;
-	left:0;
-	float:left;
-	font-size:1.2em;
-	line-height:1.2em;
-	padding:0 15px;
-	padding-right:0;
-	width:390px
-}
-
 #clear-space-before-wrapper-table,#clear-space-before-footer
 {
 	height:20px;
 	background:#f6f6e8
-}
-
-#content
-{
-	font-size:1em
-}
-
-#content dl dt
-{
-	margin:10px 0;
-	margin-bottom:0;
-	float:left;
-	width:100%
-}
-
-#content dl dd
-{
-	margin:0;
-	float:left;
-	width:100%
-}
-
-#content_index
-{
-	width:930px;
-	padding:0;
-	color:#55554e;
-	font-size:1.2em;
-	line-height:1.2em;
-	float:left;
-	position:relative;
-	top:-20px;
-	left:0px
 }
 
 dl.collapsible,#parent-fieldname-text,.documentEditable
@@ -1020,11 +895,6 @@ dl.collapsible,#parent-fieldname-text,.documentEditable
 	-webkit-border-radius:3px;
 	border-radius:3px;
 	-khtml-border-radius:3px
-}
-
-#portal-personaltools li img
-{
-	display_:none
 }
 
 h1.documentFirstHeading
@@ -1197,13 +1067,18 @@ a.discreet
 	font-weight:700
 }
 
-.state-closed,.state-published,.state-private,.state-missing-value,.state-unapproved,.state-memberposting,.state-hidden,.state-final,.state-release-candidate,.state-pre-release
+a.state-closed,a.state-published,a.state-private,a.state-missing-value,a.state-unapproved,a.state-memberposting,a.state-hidden,a.state-final,a.state-release-candidate,a.state-pre-release
 {
 	background:transparent!important;
 	margin:0!important;
 	color:#000!important;
 	font-size:16px!important;
 	padding:5px 0
+}
+
+.state-closed,.state-published,.state-private,.state-missing-value,.state-unapproved,.state-memberposting,.state-hidden,.state-final,.state-release-candidate,.state-pre-release
+{
+	font-size:16px!important;
 }
 
 a.state-published:hover,a.state-private:hover,a.state-missing-value:hover,a.state-unapproved:hover,a.state-memberposting:hover,a.state-hidden:hover,a.state-final:hover,a.state-release-candidate:hover,a.state-closed:hover,a.state-pre-release:hover
@@ -1234,17 +1109,6 @@ tr.odd
 td
 {
 	padding:2px 0
-}
-
-span.contenttype-file img,span.contenttype-plone-site img,span.contenttype-large-plone-folder img,span.contenttype-plonesoftwarecenter img,span.contenttype-news-item img,span.contenttype-document img,span.contenttype-pscrelease img,span.contenttype-link img,span.contenttype-pscproject img
-{
-	vertical-align:middle
-}
-
-#portletmanager-plone-rightcolumn_,#portletmanager-plone-leftcolumn_
-{
-	position:relative;
-	top:200px
 }
 
 .collage-header a,.collage-header a.action,.collage-header a.layout,.collage-header a.create
@@ -1342,12 +1206,10 @@ span.contenttype-file img,span.contenttype-plone-site img,span.contenttype-large
 .link-parent
 {
 	float:right;
-	width_:200px;
-	margin:10px 0;
-	margin-left_:730px
+	margin:10px 0px;
 }
 
-span.contenttype-document img,span.contenttype-topic img
+span.contenttype-document img,span.contenttype-image img,span.contenttype-topic img, span.contenttype-file img,span.contenttype-plone-site img,span.contenttype-large-plone-folder img,span.contenttype-plonesoftwarecenter img,span.contenttype-news-item img,span.contenttype-document img,span.contenttype-pscrelease img,span.contenttype-link img,span.contenttype-pscproject img
 {
 	vertical-align:middle
 }
@@ -1511,7 +1373,6 @@ dl.portletThirdWidth
 table.listing
 {
 	width:930px;
-	margin:15px
 }
 
 dt.portletHeader,dt.portletFooter
@@ -1569,4 +1430,70 @@ div.eventDetails th
 div.eventDetails td
 {
 	width:75%
+}
+
+.contentActions
+{
+	z-index-_:300;
+}
+
+.contentActions a
+{
+	padding:0px 10px;
+	font-size:12px;
+}
+
+.contentViews li a
+{
+	font-size:12px;
+}
+
+/* Estilos del pie de página */
+
+#portal-footer
+{
+	font-size:1.4em;
+	color:#d6e26e;
+	padding:0 20px;
+	padding-bottom:40px;
+	clear:both;
+	line-height:20px;
+	float:left;
+	width:920px;
+	border-top:4px solid #889800;
+	background:#a6ba00;
+	margin-bottom:30px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	-khtml-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
+	-khtml-border-bottom-right-radius:5px
+}
+
+#portal-footer a
+{
+	font-weight:900;
+	color:#889800
+}
+
+#portal-footer a:hover
+{
+	font-weight:900;
+	color:#525c00
+}
+
+#pie_resaltado
+{
+	background:#d6e26e;
+	text-align:center;
+	color:#A6BA00;
+	padding:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	margin:20px 0px;
 }

@@ -8,9 +8,11 @@
 
         <div class="LSBox">
 
+        <div id="clock">Introduce tu Búsqueda y espera unos segundos.</div>
+
         <label for="searchGadget" class="hiddenStructure"
                     i18n:translate="text_search">Search Site</label>
-<div id="clock">Introduce tu búsqueda y espera unos segundos.</div>
+
 
         <input name="SearchableText"
                type="text"
@@ -46,6 +48,7 @@
         </div>
 
         <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+
         </div>
     </form>
 
@@ -57,7 +60,6 @@
             Advanced Search&hellip;
         </a>
     </div>
-
 </div>
 
 <!--[if IE]><div class="warning">Detectamos que actualmente usas Internet Explorer. Por tu seguridad y la de todos en la web, te recomendamos que te cambies a un explorador que no viole los estándares, que sea más eficiente, seguro, amistoso, configurable, bonito y LIBRE como <a href="http://swiftweasel.tuxfamily.org/">Swiftweasel</a>, o en su defecto <a href="http://www.gnu.org/software/gnuzilla/">Icecat</a> o <a href="http://www.mozilla-europe.org/es/firefox/">Firefox</a>.<br />Gracias por tu atención. Éste molesto aviso desaparecerá tan pronto como dejes de usar Internet Explorer.</div><![endif]-->
@@ -96,39 +98,25 @@
 </div>
 <div id="controller">
 <span class="jFlowPrev">
-<div class="bfg">
-<
-</div>
+
 </span>
 <span class="jFlowControl">
-<div class="bfg">
 
-</div>
 </span>
 <span class="jFlowControl">
-<div class="bfg">
 
-</div>
 </span>
 <span class="jFlowControl">
-<div class="bfg">
 
-</div>
 </span>
 <span class="jFlowControl">
-<div class="bfg">
 
-</div>
 </span>
 <span class="jFlowControl">
-<div class="bfg">
 
-</div>
 </span>
 <span class="jFlowNext">
-<div class="bfg">
->
-</div>
+
 </span>
 
 </div>
