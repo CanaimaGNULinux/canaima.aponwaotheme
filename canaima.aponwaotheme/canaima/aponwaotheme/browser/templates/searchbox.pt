@@ -8,7 +8,7 @@
 
         <div class="LSBox">
 
-        <div id="clock">Introduce tu Búsqueda y espera unos segundos.</div>
+        <div id="clock">Introduce tus términos de búsqueda y espera unos segundos.</div>
 
         <label for="searchGadget" class="hiddenStructure"
                     i18n:translate="text_search">Search Site</label>
@@ -67,7 +67,7 @@
 
 <div id="slider">
 
-<div class="transparency"></div>
+<!--<div class="transparency"></div>-->
 
 <div class="slides">
 
@@ -97,26 +97,15 @@
 
 </div>
 <div id="controller">
-<span class="jFlowPrev">
+<div class="c_container">
 
-</span>
-<span class="jFlowControl">
+<span class="jFlowPrev"></span>
+<span class="jFlowControl"></span>
+<span class="jFlowControl"></span>
+<span class="jFlowControl"></span>
+<span class="jFlowControl"></span>
+<span class="jFlowControl"></span>
+<span class="jFlowNext"></span>
 
-</span>
-<span class="jFlowControl">
-
-</span>
-<span class="jFlowControl">
-
-</span>
-<span class="jFlowControl">
-
-</span>
-<span class="jFlowControl">
-
-</span>
-<span class="jFlowNext">
-
-</span>
-
+</div>
 </div>

@@ -1,0 +1,61 @@
+*
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
+}
+
+strong
+{
+	font-weight:500!important
+}
+
+table,tr,td
+{
+	vertical-align:top;
+	border-collapse:collapse;
+	border-spacing:0;
+	border:0px !important;
+}
+
+ol,ul
+{
+	list-style:none
+}
+
+blockquote,q
+{
+	quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after
+{
+	content:''
+}
+
+:focus
+{
+	outline:0
+}
+
+ins
+{
+	text-decoration:none
+}
+
+del
+{
+	text-decoration:line-through
+}
+
+form
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0
+}

@@ -1,7 +1,7 @@
 <div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone">
 <div id="pie_resaltado">
 
-<a href="http://twitter.com/CanaimaLinux">Twitter</a>
+<a href="http://twitter.com/CanaimaGNULinux">Twitter</a>
 &nbsp;&#8226;&nbsp;
 <a href="http://www.facebook.com/group.php?gid=94115977137">Facebook</a>
 &nbsp;&#8226;&nbsp;
@@ -13,10 +13,10 @@
 
 </div>
 
-El Portal Canaima GNU/Linux está potenciado por <a href="http://plone.org/">Plone</a>, <a href="http://jquery.com/">jQuery</a> y <a href="http://canaima.softwarelibre.gob.ve/">Linux</a>.
+El Portal Canaima GNU/Linux cumple con los estándares XHTML 1.0 y CSS 2.1 de la W3C.
 <br />
-Canaima Aponwao para Plone es un tema desarrollado por el equipo de desarrollo Canaima GNU/Linux.
+Puedes contactarnos a través de <a href="mailto:webmaster@canaima.softwarelibre.gob.ve">webmaster@canaima.softwarelibre.gob.ve</a>.
 <br />
-Puedes contactarnos a través de  <a href="mailto:webmaster@canaima.softwarelibre.gob.ve">webmaster@canaima.softwarelibre.gob.ve</a>.
+Potenciado por <a href="http://plone.org/">Plone</a>, <a href="http://jquery.com/">jQuery</a> y <a href="http://canaima.softwarelibre.gob.ve/">Canaima GNU/Linux</a>.
 
 </div>
