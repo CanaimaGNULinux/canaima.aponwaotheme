@@ -167,7 +167,7 @@ h2
 	float:left;
 	width:182px;
 	height:50px;
-	background:url('logo.png') no-repeat center center;
+	background:url('sprite1.png') no-repeat 0px 0px;
 }
 
 /* Slider jFlow */
@@ -401,6 +401,7 @@ height:0px;
 input.searchButton,.searchSection
 {
 	display:none;
+	background:transparent !important;
 }
 
 .documentDescription,.documentByLine,#link-presentation
@@ -514,7 +515,7 @@ input.searchButton,.searchSection
 	line-height:1.3em;
 	text-indent:30px;
 	text-align:justify;
-	background:url('canaima_arte.png') no-repeat;
+	background:url('sprite1.png') no-repeat 0px -50px;
 }
 
 .barra_lateral
@@ -542,27 +543,27 @@ input.searchButton,.searchSection
 
 .descargas
 {
-	background:#abe19f url('descargas.png') 10px 5px no-repeat;
+	background:#abe19f url('sprite2.png') 10px 5px no-repeat;
 }
 
 .enciclopedia
 {
-	background:#f5eedf url('enciclopedia.png') 10px 5px no-repeat;
+	background:#f5eedf url('sprite2.png') 10px -82px no-repeat;
 }
 
 .proyectos
 {
-	background:#f5eedf url('proyectos.png') 10px 5px no-repeat;
+	background:#f5eedf url('sprite2.png') 10px -165px no-repeat;
 }
 
 .acerca
 {
-	background:#f5eedf url('acerca.png') 10px 5px no-repeat;
+	background:#f5eedf url('sprite2.png') 10px -245px no-repeat;
 }
 
 .registro
 {
-	background:#f5eedf url('registro.png') 10px 5px no-repeat;
+	background:#f5eedf url('sprite2.png') 10px -325px no-repeat;
 }
 
 .enc_barra_verde,.enc_barra_verde_sub,.enc_barra_marron,.enc_barra_marron_sub,.enc_barra_texto
@@ -686,21 +687,7 @@ input.searchButton,.searchSection
 	width:290px;
 	margin:5px;
 	float:left;
-}
-
-.instituciones
-{
-background:#fff url('instituciones.png') 180px 10px no-repeat;
-}
-
-.listas
-{
-background:#fff url('listas.png') 180px 10px no-repeat;
-}
-
-.canaima_educativo
-{
-background:#fff url('canaimaedu.png') 180px 10px no-repeat;
+	background:#fff;
 }
 
 #contenido_inferior

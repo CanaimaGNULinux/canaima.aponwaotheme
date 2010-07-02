@@ -88,13 +88,9 @@
     enabled="1" expression="" id="collage.css" media="screen" rel="stylesheet"
     rendering="link"/>
     
- <stylesheet title="" cacheable="True" compression="full" cookable="True"
-    enabled="0" expression="" id="helpcenter.css" media="screen" rel="stylesheet"
-    rendering="link"/>
-    
- <stylesheet title="" cacheable="True" compression="full" cookable="True"
-    enabled="0" expression="" id="helpcenter_print.css" media="print" rel="stylesheet"
-    rendering="link"/>
+<!-- <stylesheet title="" cacheable="True" compression="full" cookable="True"
+    enabled="1" expression="" id="helpcenter.css" media="screen" rel="stylesheet"
+    rendering="link"/>-->
     
  <stylesheet title="" cacheable="True" compression="full" cookable="True"
     enabled="1" expression="" id="tema.css" media="screen"
