@@ -985,7 +985,7 @@ a.state-closed,a.state-published,a.state-private,a.state-missing-value,a.state-u
 {
 	background:transparent!important;
 	margin:0!important;
-	margin-top:10px!important;
+	_margin-top:10px!important;
 	color:#a6ba00!important;
 	font-size:16px!important;
 	padding:5px 0;
@@ -1286,6 +1286,7 @@ dd.portletItem
 	float:left;
 	margin:5px;
 	margin-bottom:20px;
+	width:800px!important;
 }
 
 dl.portletThirdWidth
@@ -1318,8 +1319,13 @@ dt.portletHeader a,dt.portletFooter a
 {
 	font-size:1.2em;
 	color:#444;
-	font-weight:500;
+	font-weight:500!important;
 	background-color:transparent!important;
+}
+
+body.section-portal* tr#portal-column-content
+{
+	margin:0px 15px !important;
 }
 
 dt.portletHeader a:hover,dt.portletFooter a:hover
@@ -1453,14 +1459,11 @@ margin-bottom:20px;
 	margin:20px 0px;
 }
 
-
 #visual-portal-wrapper
 {
 	margin:0 auto;
 	width:960px !important;
 }
-
-
 
 div.error
 {
