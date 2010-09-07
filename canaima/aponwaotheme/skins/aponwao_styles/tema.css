@@ -352,7 +352,7 @@ height:0px;
 
 /* Contenido */
 
-#content a
+#content a, #collage a.summary, .tileFooter a, div.listingBar a
 {
 	-khtml-border-radius:5px;
 	-moz-border-radius:5px;
@@ -366,13 +366,13 @@ height:0px;
 	vertical-align:middle;
 }
 
-#content a:hover
+#content a:hover, #collage a.summary:hover, .tileFooter a:hover, div.listingBar a:hover
 {
 	background:#d3b084;
 	text-decoration:none;
 }
 
-#content
+#content, #collage
 {
 	font-size:1em;
 }
@@ -1203,22 +1203,6 @@ div.listingBar
 	margin:20px 0;
 	float:left;
 	width:100%;
-}
-
-div.listingBar a
-{
-	color:#000;
-	font-weight:700;
-	font-size:1em;
-	line-height:1em;
-	padding:5px;
-	background:#fff;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-khtml-border-radius:5px;
-	vertical-align:middle;
-	margin:5px;
 }
 
 .listingNext
