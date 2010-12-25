@@ -129,6 +129,7 @@ h2
 	-khtml-border-top-right-radius:5px;
 	width:950px;
 	height:50px;
+	border-bottom:4px solid #ccba91;
 }
 
 #clock
@@ -352,7 +353,7 @@ height:0px;
 
 /* Contenido */
 
-#content a, #collage a.summary, .tileFooter a, div.listingBar a
+body.section-descargas div#sidebar-downloads a, body.section-descargas div#content h2 a, body.section-descargas div#content table a,body.section-descargas div#content div p a span,body.section-descargas div#content a.link-plain,body.section-acerca-de div#content a,body.section-unirse div#content a.external-link,body.section-soporte div#content a.external-link,body.section-descargas div#content a.external-link,div.pane a, ol#add-on-categories li a, ul.downloads li a, a.link-parent, a.update-selection, a#foldercontents-selectall, .documentByLine a, .tileHeadline a, #collage a.summary, .tileFooter a, div.listingBar a, #viewlet-social-bookmarks a, .documentAuthor a
 {
 	-khtml-border-radius:5px;
 	-moz-border-radius:5px;
@@ -366,39 +367,182 @@ height:0px;
 	vertical-align:middle;
 }
 
-#content a:hover, #collage a.summary:hover, .tileFooter a:hover, div.listingBar a:hover
+body.section-descargas div#content h2 a:hover, body.section-descargas div#sidebar-downloads a:hover, body.section-descargas div#content table a:hover, body.section-descargas div#content div p a:hover span,body.section-descargas div#content a.link-plain:hover, body.section-acerca-de div#content a:hover, body.section-unirse div#content a.external-link:hover, body.section-soporte div#content a.external-link:hover, body.section-descargas div#content a.external-link:hover, div.pane a:hover, ol#add-on-categories li a:hover, ul.downloads li a:hover, a.link-parent:hover, a.update-selection:hover, a#foldercontents-selectall:hover, .documentByLine a:hover, .tileHeadline a:hover, #collage a.summary:hover, .tileFooter a:hover, div.listingBar a:hover, #viewlet-social-bookmarks a:hover, .documentAuthor a:hover
 {
 	background:#d3b084;
 	text-decoration:none;
+}
+
+div#parent-fieldname-text a img, div.photoAlbumEntry a span.photoAlbumEntryWrapper img
+{
+        -khtml-border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        background:#f0d9aa;
+        border:none;
+        border-radius:5px;
+        color:#444;
+        padding:5px;
+        text-decoration:none;
+        vertical-align:middle;
+}
+
+div#parent-fieldname-text a:hover img, div.photoAlbumEntry a:hover span.photoAlbumEntryWrapper img
+{
+        background:#d3b084;
+        text-decoration:none;
+}
+
+div.photoAlbumEntry
+{
+	float:left;
+	margin:5px;
+	width:150px;
+}
+
+span.photoAlbumEntryTitle
+{
+	display:none;
+}
+
+ul.downloads li
+{
+        padding:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        -khtml-border-radius:5px;
+        margin:10px;
+        width:430px;
+        float:left;
+        background-color: #f5eedf;
+        font-size:1em;
+	line-height:1.2em;
+}
+
+ul.downloads li h3
+{
+        font-size:1.2em;
+	font-weight:700;
+        line-height:1.5em;
+}
+
+ul.downloads li img, ul.downloads li div#product-details p
+{
+       display:none;
+}
+
+ul.downloads li div#product-details span.product-leadin, ul.downloads li div#product-details p.product-description
+{
+        display:block !important;
+}
+
+.portalMessage a
+{
+        -khtml-border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        background:#ffacac;
+        border:none;
+        border-radius:5px;
+        color:#444;
+        padding:1px 3px;
+        text-decoration:none;
+        vertical-align:middle;
+}
+
+.portalMessage a:hover
+{
+        background:#ffd2d2;
+        text-decoration:none;
 }
 
 #content, #collage
 {
 	font-size:1em;
 }
-/*
-#content dl dt
+
+body.section-descargas div#content
 {
-	margin:10px 0;
-	margin-bottom:0;
-	float:left;
-	width:100%;
+        font-size:1.5em;
+        line-height:1.5em;
 }
 
-#content dl dd
+div.pane
 {
-	margin:0;
+        font-size:1em;
+	line-height:1.5em;
+}
+
+body.section-descargas div#content h1
+{
+        font-size:1.5em;
+}
+
+body.section-descargas div#content form#pscrelease-base-edit, body.section-descargas div#content form#pscproject-base-edit, body.section-descargas div#content form#plonesoftwarecenter-base-edit, body.section-descargas div#content form#pscimprovementproposal-base-edit, body.section-descargas div#content form#pscfilelink-base-edit, body.section-descargas div#content form#pscfile-base-edit
+{
+        font-size:0.8em;
+}
+
+div.pane p,div.pane,body.section-descargas div#content p,body.section-descargas div#content div
+{
+        width:100%;
+        float:left;
+}
+
+body.section-descargas div#content input,body.section-descargas div#content select#compatibility,body.section-descargas div#content select#classifiers,body.section-descargas div#content select#categories,body.section-descargas div#content select#license,body.section-descargas div#content select#relatedFeatures_selected,body.section-descargas div#content select#relatedFeatures_unselected,body.section-descargas div#content select#language, form#plonesoftwarecenter-base-edit label, form#pscfilelink-base-edit label, form#pscfile-base-edit label
+{
+        float:left;
+}
+
+body.section-descargas div#content input[type='button'], body.section-descargas div#content form#product_select input[type='submit']
+{
+        color:#000;
+        font-weight:700;
+        font-size:0.8em;
+        line-height:0.8em;
+        float:none;
+        padding:2px !important;
+        background:#e2dac7;
+        text-align:center;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        -khtml-border-radius:5px;
+        vertical-align:middle;
+        margin:1px;
+        border:none;
+        text-transform:uppercase;
+}
+
+body.section-descargas div#content input, body.section-descargas div#content select
+{
+	margin:3px;
+}
+
+body.section-descargas div#content div.pane div#sort-by form#product_select select
+{
+	font-size:0.8em;
 	float:left;
-	width:100%;
-}*/
+}
+
+body.section-descargas div#content div#archetypes-fieldname-unsupportedVersions td,body.section-descargas div#content div#archetypes-fieldname-unsupportedVersions div
+{
+        width:100% !important;
+}
 
 #portal-column-content fieldset > * textarea.kupu-editor-textarea
 {
 	width:928px!important;
-	font-size:1.5em;
+	font-size:1em;
 }
 
-input.searchButton,.searchSection
+#collage .two-columns-equal .block_1, #collage .two-columns-equal .block_2
+{
+	width:50% !important;
+}
+
+div#portal-searchbox form#livesearch0 div.LSBox input.searchButton,.searchSection,.tileImage
 {
 	display:none;
 	background:transparent !important;
@@ -456,11 +600,16 @@ input.searchButton,.searchSection
 
 .collage-item
 {
-	margin:30px 0;
+	margin:5px;
 	float:left;
 	text-align:justify;
 	font-size:1.6em;
 	line-height:1.6em;
+}
+
+div#collage div.one-column div.collage-item
+{
+	margin:0px !important;
 }
 
 .documentActions
@@ -495,7 +644,7 @@ input.searchButton,.searchSection
 	background:transparent!important;
 }
 
-.tileBody,.tileFooter
+.tileBody,.tileFooter,.tileItem
 {
 	float:left;
 	width:100%;
@@ -520,15 +669,13 @@ input.searchButton,.searchSection
 
 .barra_lateral
 {
-	position:relative;
-	top:-60px;
-	left:0;
 	float:left;
 	font-size:1.2em;
 	line-height:1.2em;
 	padding:0 15px;
 	padding-right:0;
 	width:390px;
+	margin-bottom:20px;
 }
 
 .enciclopedia,.proyectos,.descargas,.acerca,.registro
@@ -714,7 +861,7 @@ input.searchButton,.searchSection
 {
 	float:left;
 	width:930px !important;
-	background:#f6f6e8;
+	background:#fff;
 	line-height:1.5em;
 	border:0;
 	padding:25px 0;
@@ -728,7 +875,7 @@ table#portal-columns tr
 width:960px !important
 }
 
-#portal-column-two
+#portal-column-_two, #document-action-socialbookmark
 {
 	display:none;
 }
@@ -742,7 +889,7 @@ width:960px !important
 #clear-space-before-wrapper-table,#clear-space-before-footer
 {
 	height:20px;
-	background:#f6f6e8;
+	background:#fff;
 }
 
 dl.collapsible,#parent-fieldname-text,.documentEditable
@@ -1085,7 +1232,7 @@ td
 	text-transform:uppercase;
 }
 
-.context,.formControls .actionButtons .button,.documentEditable * .context
+.context,.formControls .actionButtons .button,.documentEditable * .context,button
 {
 	color:#000;
 	font-weight:700;
@@ -1124,6 +1271,7 @@ td
 .link-parent
 {
 	float:right;
+	display:block;
 	margin:10px 0px;
 }
 
@@ -1138,11 +1286,20 @@ li.formTab a
 	font-size:1.2em!important;
 	background-color:#ddd!important;
 	margin:5px!important;
+        -khtml-border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border:none;
+        border-radius:5px;
+        color:#444;
+        text-decoration:none;
+        vertical-align:middle;
 }
 
 li.formTab a:hover
 {
 	background-color:#eee!important;
+        text-decoration:none;
 }
 
 ul.formTabs
@@ -1179,7 +1336,9 @@ th.nosort
 body.kupu
 {
 	background-color:#fff;
-	font-size:1.5em;
+	font-size:1.7em;
+	line-height:1.5em;
+	text-align:justify;
 }
 
 iframe.kupu-editor-iframe,.kupu-tb
@@ -1265,12 +1424,26 @@ ul.configletDetails li span img,ul.configlets li label img,ul.configletDetails l
 	vertical-align:middle !important;
 }
 
+dl.portlet
+{
+        padding:5px;
+        background:#f6ffe7;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        -khtml-border-radius:5px;
+        vertical-align:middle;
+}
+
 dd.portletItem
 {
-	float:left;
-	margin:5px;
-	margin-bottom:20px;
-	width:800px!important;
+	font-size:0.7em;
+	line-height:1.5em;
+}
+
+_dd.portletItem img
+{
+	display:none;
 }
 
 dl.portletThirdWidth
@@ -1283,39 +1456,34 @@ table.listing
 	width:930px;
 }
 
-dt.portletHeader,dt.portletFooter
+dd.portletItem a
 {
-	font-size:1.5em;
-	color:#000;
-	font-weight:700;
-	line-height:1em;
-	padding:5px;
-	background:#fff;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-khtml-border-radius:5px;
-	vertical-align:middle;
-	margin:10px 5px;
+	color: #a6ba00;
 }
 
-dt.portletHeader a,dt.portletFooter a
-{
-	font-size:1.2em;
-	color:#444;
-	font-weight:500!important;
-	background-color:transparent!important;
-}
-
-body.section-portal* tr#portal-column-content
-{
-	margin:0px 15px !important;
-}
-
-dt.portletHeader a:hover,dt.portletFooter a:hover
+dd.portletItem a:hover
 {
 	color:#888;
-	background-color:transparent!important;
+}
+
+dt.portletHeader a, dd.portletFooter a
+{
+        color: #000;
+}
+
+dt.portletHeader a:hover, dd.portletFooter a:hover
+{
+        color:#000;
+}
+
+dt.portletHeader
+{
+	border-bottom: 1px solid #bbb;
+}
+
+body.section-canaima-gnu-linux dl.portlet
+{
+	height:270px;
 }
 
 div.eventDetails

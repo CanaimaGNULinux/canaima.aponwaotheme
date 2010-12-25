@@ -3,7 +3,7 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="plone">
     
- <assignment
+<!-- <assignment
      purge="True"
      manager="plone.leftcolumn"
      category="context"
@@ -16,7 +16,7 @@
      category="context"
      key="/"
      />
- <!--    
+    
  <assignment
      purge="True"
      manager="plone.leftcolumn"

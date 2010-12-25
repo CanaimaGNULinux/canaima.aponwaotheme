@@ -25,7 +25,6 @@
  <javascript cacheable="True" compression="safe-encode" cookable="True" enabled="True" expression="" id="toc.js" inline="False"/>
 
  <!-- canaima.aponwaotheme -->
- <javascript  id="++resource++canaima.aponwaotheme.javascripts/slimbox2.js" cacheable="True" compression="safe-encode" cookable="True" enabled="True" expression=""  inline="False"/>
  <javascript  id="++resource++canaima.aponwaotheme.javascripts/jflow.js" cacheable="True" compression="safe-encode" cookable="True" enabled="True" expression=""  inline="False"/>
  <javascript  id="++resource++canaima.aponwaotheme.javascripts/easing.js" cacheable="True" compression="safe-encode" cookable="True" enabled="True" expression=""  inline="False"/>
  <javascript  id="++resource++canaima.aponwaotheme.javascripts/lavalamp.js" cacheable="True" compression="safe-encode" cookable="True" enabled="True" expression=""  inline="False"/>

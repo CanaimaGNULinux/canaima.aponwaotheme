@@ -50,6 +50,6 @@
 
 <stylesheet title="" cacheable="True" compression="full" cookable="True" enabled="1" expression="" id="tema.css" media="screen" rel="stylesheet" rendering="link"/>
 
-  
+<stylesheet title="" cacheable="True" compression="full" cookable="True" enabled="1" expression="not: portal/portal_membership/isAnonymousUser" id="online.css" media="screen" rel="stylesheet" rendering="link"/>
 
 </object>

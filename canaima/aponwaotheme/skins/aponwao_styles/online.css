@@ -1,0 +1,79 @@
+body.section-portal_cache_settings td#portal-column-content
+{
+        padding:0px 15px !important;
+	width:930px;
+}
+
+body.section-portal_cache_settings .documentContent, body.section-portal_cache_settings div.documentContent p, body.section-portal_cache_settings div.documentContent div, body.section-portal_cache_settings div.documentContent h3
+{
+        float:left;
+        width:100%;
+        display:block;
+        border:0px!important;
+}
+
+body.section-portal_cache_settings div.documentContent input, body.section-portal_cache_settings div.documentContent table, body.section-portal_cache_settings div.documentContent select, body.section-portal_cache_settings div.documentContent label
+{
+        float:left;
+        display:block;
+}
+
+body.section-portal_cache_settings div.documentContent p,body.section-portal_cache_settings div.documentContent table
+{
+        font-size:1.2em;
+}
+
+body.section-portal_cache_settings div.documentContent th
+{
+        font-size:1em;
+        padding:5px;
+        background:#ddd;
+}
+
+body.section-portal_cache_settings div.documentContent option
+{
+        font-size:0.8em;
+}
+
+body.section-portal_cache_settings div.documentContent br
+{
+	float:left;
+        width:100%;
+}
+
+body.section-portal_cache_settings div.documentContent table
+{
+        padding:10px 0px;
+}
+
+body.section-portal_cache_settings div.documentContent h3
+{
+        font-size:1.7em;
+        padding:5px 0px;
+}
+
+body.section-portal_cache_settings div.documentContent td
+{
+        font-size:1.2em;
+        padding:5px;
+}
+
+body.section-portal_cache_settings div.documentContent a
+{
+        -khtml-border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        background:#f0d9aa;
+        border:none;
+        border-radius:5px;
+        color:#444;
+        padding:1px 3px;
+        text-decoration:none;
+        vertical-align:middle;
+}
+
+body.section-portal_cache_settings div.documentContent a:hover
+{
+        background:#d3b084;
+        text-decoration:none;
+}
